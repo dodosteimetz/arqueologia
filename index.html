@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RS3 Archaeology Guide</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg0: #080e1a;
+      --bg1: #0d1623;
+      --bg2: #12203a;
+      --bg3: #192d50;
+      --bg4: #1f3860;
+      --gold: #c8a84b;
+      --gold2: #e8c96a;
+      --text: #ddd0b8;
+      --textdim: #8a7d65;
+      --green: #5aaa60;
+      --red: #c45050;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg0);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      font-size: 16px;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(180deg, var(--bg0) 0%, var(--bg1) 100%);
+      border-bottom: 1px solid var(--gold);
+      padding: 20px 24px;
+    }
+
+    .logo {
+      font-family: 'Cinzel', serif;
+      font-size: 24px;
+      color: var(--gold);
+      letter-spacing: 2px;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    nav {
+      background: var(--bg2);
+      border-bottom: 1px solid var(--bg3);
+      padding: 0 24px;
+      display: flex;
+      gap: 2px;
+      margin-bottom: 24px;
+      flex-wrap: wrap;
+    }
+
+    nav button {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--textdim);
+      padding: 12px 18px;
+      cursor: pointer;
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      transition: all 0.2s;
+    }
+
+    nav button.active {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+    }
+
+    nav button:hover {
+      color: var(--text);
+    }
+
+    .content-section {
+      display: none;
+    }
+
+    .content-section.active {
+      display: block;
+    }
+
+    .card {
+      background: var(--bg2);
+      border: 1px solid var(--bg3);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      transition: all 0.2s;
+    }
+
+    .card:hover {
+      background: var(--bg3);
+      border-color: var(--gold);
+    }
+
+    .card-title {
+      font-family: 'Cinzel', serif;
+      font-size: 16px;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .card-body {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .card-meta {
+      font-size: 12px;
+      color: var(--textdim);
+      margin-top: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--bg3);
+      color: var(--text);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      margin-right: 4px;
+      margin-bottom: 4px;
+    }
+
+    .loading {
+      text-align: center;
+      color: var(--textdim);
+      padding: 40px 20px;
+    }
+
+    .error {
+      background: rgba(196, 80, 80, 0.1);
+      border: 1px solid var(--red);
+      color: var(--red);
+      padding: 16px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 12px;
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">⛏ RS3 Archaeology Guide</div>
+</header>
+
+<main>
+  <nav id="nav-tabs"></nav>
+  <div id="content"></div>
+</main>
+
+<script>
+  // ═══════════════════════════════════════════════════════
+  // CONFIG & STATE
+  // ═══════════════════════════════════════════════════════
+  const CONFIG = {
+    dataPath: './data', // Caminho para seus JSONs
+    tabs: [
+      { id: 'mysteries', label: '🔮 Mistérios', file: 'mysteries.json' },
+      { id: 'artefacts', label: '🏺 Artefatos', file: 'artefacts.json' },
+      { id: 'materials', label: '⚗️ Materiais', file: 'materials.json' },
+      { id: 'research', label: '📜 Pesquisas', file: 'research.json' },
+    ]
+  };
+
+  let state = {
+    currentTab: 'mysteries',
+    data: {}
+  };
+
+  // ═══════════════════════════════════════════════════════
+  // DATA LOADING
+  // ═══════════════════════════════════════════════════════
+  async function loadJSON(filename) {
+    try {
+      const response = await fetch(`${CONFIG.dataPath}/${filename}`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      console.error(`Erro ao carregar ${filename}:`, error);
+      return null;
+    }
+  }
+
+  async function loadAllData() {
+    console.log('Carregando dados...');
+    for (const tab of CONFIG.tabs) {
+      state.data[tab.id] = await loadJSON(tab.file);
+    }
+    render();
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // RENDER FUNCTIONS
+  // ═══════════════════════════════════════════════════════
+  function renderNav() {
+    const nav = document.getElementById('nav-tabs');
+    nav.innerHTML = CONFIG.tabs
+      .map(tab => `
+        <button class="${state.currentTab === tab.id ? 'active' : ''}"
+                onclick="switchTab('${tab.id}')">
+          ${tab.label}
+        </button>
+      `)
+      .join('');
+  }
+
+  function renderContent() {
+    const content = document.getElementById('content');
+    const currentData = state.data[state.currentTab];
+
+    if (!currentData) {
+      content.innerHTML = '<div class="loading">Carregando dados...</div>';
+      return;
+    }
+
+    if (!Array.isArray(currentData)) {
+      content.innerHTML = '<div class="error">Formato de dados inválido</div>';
+      return;
+    }
+
+    if (currentData.length === 0) {
+      content.innerHTML = '<div class="loading">Nenhum dado disponível</div>';
+      return;
+    }
+
+    // Renderizar de acordo com a aba
+    switch (state.currentTab) {
+      case 'mysteries':
+        content.innerHTML = renderMysteries(currentData);
+        break;
+      case 'artefacts':
+        content.innerHTML = renderArtefacts(currentData);
+        break;
+      case 'materials':
+        content.innerHTML = renderMaterials(currentData);
+        break;
+      case 'research':
+        content.innerHTML = renderResearch(currentData);
+        break;
+    }
+  }
+
+  function renderMysteries(data) {
+    return `<div class="list">
+      ${data.map(item => `
+        <div class="card">
+          <div class="card-title">${item.name || 'N/A'}</div>
+          <div class="card-body">
+            <p><strong>Local:</strong> ${item.digSite || 'Desconhecido'}</p>
+            <p><strong>Alinhamento:</strong> ${item.alignment || 'N/A'}</p>
+            ${item.requirements ? `
+              <p><strong>Requisitos:</strong></p>
+              <ul>
+                ${item.requirements.map(req => `
+                  <li>${req.skill} Nível ${req.level || '—'}</li>
+                `).join('')}
+              </ul>
+            ` : ''}
+            ${item.rewards ? `
+              <p><strong>Recompensas:</strong></p>
+              <div>
+                ${item.rewards.map(reward => `
+                  <span class="badge">${reward}</span>
+                `).join('')}
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+  }
+
+  function renderArtefacts(data) {
+    return `<div class="list">
+      ${data.map(item => `
+        <div class="card">
+          <div class="card-title">${item.name || 'N/A'}</div>
+          <div class="card-meta">
+            <span class="badge">Nível ${item.level || '?'}</span>
+            <span class="badge">${item.site || 'Desconhecido'}</span>
+          </div>
+          <div class="card-body">
+            ${item.description ? `<p>${item.description}</p>` : ''}
+            ${item.xp ? `<p><strong>XP:</strong> ${item.xp.toLocaleString('pt-BR')}</p>` : ''}
+            ${item.materials ? `
+              <p><strong>Materiais:</strong> ${item.materials.join(', ')}</p>
+            ` : ''}
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+  }
+
+  function renderMaterials(data) {
+    return `<div class="grid">
+      ${data.map(item => `
+        <div class="card">
+          <div class="card-title">${item.name || 'N/A'}</div>
+          <div class="card-body">
+            ${item.description ? `<p>${item.description}</p>` : ''}
+            ${item.sources ? `
+              <p><strong>Fontes:</strong></p>
+              <ul>
+                ${item.sources.map(src => `<li>${src}</li>`).join('')}
+              </ul>
+            ` : ''}
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+  }
+
+  function renderResearch(data) {
+    return `<div class="list">
+      ${data.map(item => `
+        <div class="card">
+          <div class="card-title">${item.name || 'N/A'}</div>
+          <div class="card-meta">
+            <span class="badge">Nível ${item.level || '?'}</span>
+            <span class="badge">${item.digSite || 'Desconhecido'}</span>
+          </div>
+          <div class="card-body">
+            ${item.description ? `<p>${item.description}</p>` : ''}
+            ${item.location ? `<p><strong>Local:</strong> ${item.location}</p>` : ''}
+          </div>
+        </div>
+      `).join('')}
+    </div>`;
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // CONTROLS
+  // ═══════════════════════════════════════════════════════
+  function switchTab(tabId) {
+    state.currentTab = tabId;
+    renderNav();
+    renderContent();
+  }
+
+  function render() {
+    renderNav();
+    renderContent();
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // INIT
+  // ═══════════════════════════════════════════════════════
+  loadAllData();
+</script>
+
+</body>
+</html>
