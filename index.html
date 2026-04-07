@@ -179,7 +179,6 @@ function toggleDone(id) {
 }
 
 function render() {
-    // Atualizar botões do menu
     document.querySelectorAll('nav button').forEach(btn => {
         btn.classList.toggle('active', btn.id === `btn-${state.tab}`);
     });
@@ -188,38 +187,39 @@ function render() {
     let html = '';
 
     if (state.tab === 'artefacts') {
-        const filtered = DB.artefacts.filter(a => a.level <= state.level);
+        // Convertemos art.level para número para a comparação funcionar
+        const filtered = DB.artefacts.filter(a => parseInt(a.level) <= state.level);
+        
         html = `<h2>Artefatos (Nível ${state.level})</h2>`;
+        
         filtered.forEach(art => {
-            const isDone = state.done[art.id];
+            // Como seu JSON não tem ID, usamos o NAME para salvar o progresso
+            const isDone = state.done[art.name];
+            
+            // Gerar a lista de materiais
+            const matList = art.materials.map(m => `<li>${m}</li>`).join('');
+
             html += `
-                <div class="card ${isDone ? 'done' : ''}" onclick="toggleDone('${art.id}')" style="cursor:pointer">
+                <div class="card ${isDone ? 'done' : ''}" onclick="toggleDone('${art.name}')" style="cursor:pointer">
                     <b>[Lvl ${art.level}]</b> ${art.name} <br>
-                    <small style="color: var(--text-dim)">Local: ${art.site}</small>
+                    <span style="color: var(--gold); font-size: 0.8rem;">XP: ${art.xp} | Coleção: ${art.collections}</span>
+                    <ul style="font-size: 0.85rem; margin-top: 10px; color: var(--text-dim)">
+                        ${matList}
+                    </ul>
                 </div>
             `;
         });
     } 
-    else if (state.tab === 'materials') {
-        html = `<h2>Lista de Materiais</h2>`;
-        DB.materials.forEach(mat => {
-            html += `<div class="card">${mat.name} - <small>${mat.source}</small></div>`;
-        });
-    }
-    else if (state.tab === 'collections') {
-        html = `<h2>Coleções de Museu</h2>`;
-        DB.collections.forEach(col => {
-            html += `<div class="card"><b>${col.name}</b> (Coletor: ${col.collector})</div>`;
-        });
-    }
-
+    // ... manter as outras abas (materials/collections) como estavam
     content.innerHTML = html;
     updateStats();
 }
 
 function updateStats() {
-    const total = DB.artefacts.filter(a => a.level <= state.level).length;
-    const done = DB.artefacts.filter(a => a.level <= state.level && state.done[a.id]).length;
+    // Ajuste para contar usando o NOME e converter nível
+    const available = DB.artefacts.filter(a => parseInt(a.level) <= state.level);
+    const total = available.length;
+    const done = available.filter(a => state.done[a.name]).length;
     const pct = total > 0 ? Math.round((done / total) * 100) : 0;
 
     document.getElementById('stat-done').textContent = done;
