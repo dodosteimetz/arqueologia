@@ -1,0 +1,14 @@
+[
+  {
+    "id": "breaking_the_seal",
+    "name": "Breaking the Seal",
+    "level": 12,
+    "digSite": "Kharid-et Dig Site",
+    "alignment": "Zarosian",
+    "requirements": [
+      { "skill": "Archaeology", "level": 12 },
+      { "skill": "Archaeology tutorial", "level": null }
+    ],
+    "rewards": ["900 experience", "Access to the main fortress"]
+  }
+]
