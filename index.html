@@ -14,314 +14,27 @@
             --text-dim: #8a7d65;
             --border: #1f3860;
         }
-
-        body {
-            background: var(--bg-deep);
-            color: var(--text);
-            font-family: 'Crimson Text', serif;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
+        body { background: var(--bg-deep); color: var(--text); font-family: 'Crimson Text', serif; margin: 0; display: flex; flex-direction: column; align-items: center; }
         h1, h2, h3 { font-family: 'Cinzel', serif; color: var(--gold); }
-
-        header {
-            width: 100%;
-            background: var(--bg-panel);
-            border-bottom: 2px solid var(--gold);
-            padding: 1rem;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .stats-bar {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            font-size: 0.9rem;
-            margin-top: 10px;
-        }
-
-        nav {
-            margin: 15px 0;
-            display: flex;
-            gap: 5px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        button {
-            background: var(--bg-deep);
-            border: 1px solid var(--border);
-            color: var(--text);
-            padding: 8px 15px;
-            cursor: pointer;
-            font-family: 'Cinzel';
-        }
-
-        button.active {
-            background: var(--gold);
-            color: black;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            padding: 20px;
-        }
-
-        .card {
-            background: var(--bg-panel);
-            border: 1px solid var(--border);
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 4px;
-        }
-
+        header { width: 100%; background: var(--bg-panel); border-bottom: 2px solid var(--gold); padding: 1rem; text-align: center; position: sticky; top: 0; z-index: 100; }
+        .stats-bar { display: flex; justify-content: center; gap: 20px; font-size: 0.9rem; margin-top: 10px; }
+        nav { margin: 15px 0; display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; }
+        button { background: var(--bg-deep); border: 1px solid var(--border); color: var(--text); padding: 8px 15px; cursor: pointer; font-family: 'Cinzel'; }
+        button.active { background: var(--gold); color: black; }
+        .container { width: 90%; max-width: 1100px; padding: 20px; }
+        .card, .mys-card { background: var(--bg-panel); border: 1px solid var(--border); padding: 15px; margin-bottom: 10px; border-radius: 4px; }
         .done { border-left: 5px solid var(--gold); opacity: 0.8; }
-
-        input[type="range"] { width: 200px; }
-        
-        .loading {
-            padding: 50px;
-            text-align: center;
-            font-size: 1.5rem;
-        }       
-.tab-panel { 
-  display: none; 
-}
-
-.tab-panel.active { 
-  display: block; 
-}
-
-.toolbar {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  background: var(--bg-panel);
-  border-radius: 4px;
-}
-
-.view-toggle, .flt-chips {
-  display: flex;
-  gap: 10px;
-}
-
-.chip {
-  padding: 6px 12px;
-  border: 1px solid var(--border);
-  background: var(--bg-deep);
-  color: var(--text);
-  cursor: pointer;
-  border-radius: 20px;
-  font-size: 0.9rem;
-}
-
-.chip.active {
-  background: var(--gold);
-  color: black;
-  border-color: var(--gold);
-}
-
-.stat-card {
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
-  padding: 15px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-.stat-big {
-  font-size: 2rem;
-  color: var(--gold);
-  margin: 10px 0;
-}
-
-.stat-sub {
-  font-size: 0.9rem;
-  color: var(--text-dim);
-}
-
-.prog-bar {
-  width: 100%;
-  height: 8px;
-  background: var(--border);
-  border-radius: 4px;
-  margin-top: 8px;
-  overflow: hidden;
-}
-
-.prog-fill {
-  height: 100%;
-  background: var(--gold);
-  transition: width 0.3s;
-}
-
-.site-card {
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
-  padding: 15px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
-
-.sc-name {
-  font-size: 1.2rem;
-  color: var(--gold);
-  font-weight: bold;
-}
-
-.sc-culture {
-  font-size: 0.9rem;
-  color: var(--text-dim);
-  margin: 5px 0;
-}
-
-.sc-stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.sc-stat {
-  font-size: 0.85rem;
-}
-
-.tbl-wrap {
-  overflow-x: auto;
-}
-
-.data-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.data-table th {
-  background: var(--bg-deep);
-  color: var(--gold);
-  padding: 10px;
-  text-align: left;
-  border-bottom: 2px solid var(--gold);
-}
-
-.data-table td {
-  padding: 10px;
-  border-bottom: 1px solid var(--border);
-}
-
-.locked-row {
-  opacity: 0.5;
-}
-
-.done-row {
-  background: rgba(200, 168, 75, 0.1);
-}
-
-.lvl-badge {
-  background: var(--gold);
-  color: black;
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-weight: bold;
-  font-size: 0.85rem;
-}
-
-.item-name {
-  font-weight: bold;
-  color: var(--gold);
-}
-
-.mys-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 15px;
-}
-
-.mys-card {
-  background: var(--bg-panel);
-  border: 1px solid var(--border);
-  padding: 15px;
-  border-radius: 4px;
-  position: relative;
-}
-
-.mys-card-body {
-  margin-top: 10px;
-}
-
-.locked-card {
-  opacity: 0.5;
-}
-
-.done-card {
-  background: rgba(200, 168, 75, 0.1);
-}
-
-.done-check, .done-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 2px solid var(--gold);
-  background: transparent;
-  color: var(--gold);
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.done-check.checked, .done-btn.active {
-  background: var(--gold);
-  color: black;
-}
-
-.align-pill, .site-pill, .col-tag {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  margin-right: 5px;
-  background: rgba(200, 168, 75, 0.2);
-  color: var(--text);
-}
-
-.empty {
-  text-align: center;
-  padding: 40px;
-  color: var(--text-dim);
-}
-
-.empty-icon {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.ub-item {
-  background: var(--bg-panel);
-  border-left: 4px solid var(--gold);
-  padding: 10px;
-  margin-bottom: 5px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.lvl-pip {
-  background: var(--gold);
-  color: black;
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-weight: bold;
-  font-size: 0.75rem;
-} 
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+        .toolbar { display: flex; gap: 20px; margin-bottom: 20px; padding: 10px; background: var(--bg-panel); border-radius: 4px; }
+        .chip { padding: 6px 12px; border: 1px solid var(--border); background: var(--bg-deep); color: var(--text); cursor: pointer; border-radius: 20px; font-size: 0.9rem; }
+        .chip.active { background: var(--gold); color: black; border-color: var(--gold); }
+        .mys-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; }
+        .lvl-badge { background: var(--gold); color: black; padding: 2px 8px; border-radius: 3px; font-weight: bold; font-size: 0.85rem; }
+        .align-pill { display: inline-block; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; margin-right: 5px; background: rgba(200,168,75,0.2); }
+        .done-check { position: absolute; top: 12px; right: 12px; width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--gold); background: transparent; color: var(--gold); cursor: pointer; font-weight: bold; }
+        .done-check.checked { background: var(--gold); color: black; }
+        .empty { text-align: center; padding: 60px 20px; color: var(--text-dim); }
     </style>
 </head>
 <body>
@@ -330,585 +43,216 @@
     <h1>Archaeology Tracker</h1>
     <div class="controls">
         Nível: <span id="level-val">99</span>
-        <input type="range" id="level-slider" min="1" max="120" value="99">
+        <input type="range" id="level-slider" min="1" max="120" value="99" oninput="setLevel(this.value)">
     </div>
     <div class="stats-bar">
         <span>Concluído: <b id="stat-done">0</b></span>
         <span>Progresso: <b id="stat-pct">0%</b></span>
     </div>
-        <nav id="main-nav">
-        <button onclick="setTab('overview')" data-tab="overview" id="btn-overview">📊 Overview</button>
-        <button onclick="setTab('artefacts')" data-tab="artefacts" id="btn-artefacts">🏺 Artefatos</button>
-        <button onclick="setTab('mysteries')" data-tab="mysteries" id="btn-mysteries">🔮 Mistérios</button>
-        <button onclick="setTab('collections')" data-tab="collections" id="btn-collections">📦 Coleções</button>
-        <button onclick="setTab('research')" data-tab="research" id="btn-research">📜 Pesquisas</button>
-    </nav>
+    <nav id="main-nav"></nav>
 </header>
 
-<div class="container" id="main-content">
-    <div class="tab-panel active" id="tab-overview">
-        <div id="ov-stats"></div>
-        <div id="ov-unlocks" style="display:none;">
-            <h2>🎉 Desbloqueado neste nível</h2>
-            <div id="ov-unlock-list"></div>
-        </div>
-        <div id="ov-sites"></div>
-    </div>
-    
-    <div class="tab-panel" id="tab-artefacts">
-        <div id="art-content"></div>
-    </div>
-    
-    <div class="tab-panel" id="tab-mysteries">
-        <div id="mys-content"></div>
-    </div>
-    
-    <div class="tab-panel" id="tab-collections">
-        <div class="toolbar">
-            <div class="view-toggle">
-                <button class="active" id="col-view-table" onclick="colSetView('table')">☰ Tabela</button>
-                <button id="col-view-card" onclick="colSetView('card')">⊞ Cards</button>
-            </div>
-            <div class="flt-chips" id="col-align-chips"></div>
-        </div>
-        <div id="col-content"></div>
-    </div>
-    
-    <div class="tab-panel" id="tab-research">
-        <div class="toolbar">
-            <div class="view-toggle">
-                <button class="active" id="res-view-table" onclick="resSetView('table')">☰ Tabela</button>
-                <button id="res-view-card" onclick="resSetView('card')">⊞ Cards</button>
-            </div>
-            <div class="flt-chips" id="res-site-chips"></div>
-        </div>
-        <div id="res-content"></div>
-    </div>
+<div class="container">
+    <div class="tab-panel active" id="tab-overview"><div id="ov-content"></div></div>
+    <div class="tab-panel" id="tab-artefacts"><div id="art-content"></div></div>
+    <div class="tab-panel" id="tab-mysteries"><div id="mys-content"></div></div>
+    <div class="tab-panel" id="tab-collections"><div id="col-content"></div></div>
+    <div class="tab-panel" id="tab-research"><div id="res-content"></div></div>
 </div>
 
 <script>
-// ═══════════════════════════════════════════════════════
-  // CONFIG & STATE
-  // ═══════════════════════════════════════════════════════
-  const CONFIG = {
-  dataPath: './data/',
-  tabs: [
-    { id: 'misterios', label: '🔮 Mistérios', file: 'misterios.json' },
-    { id: 'artefatos', label: '🏺 Artefatos', file: 'artefatos.json' },
-    { id: 'colecoes', label: '📚 Coleções', file: 'colecoes.json' },
-    { id: 'pesquisas', label: '📜 Pesquisas', file: 'pesquisas.json' },
-  ]
+// ==================== CONFIG ====================
+const CONFIG = {
+    dataPath: './data/',
+    tabs: [
+        { id: 'mysteries',   label: '🔮 Mistérios',    file: 'misterios_clean.json' },
+        { id: 'artefacts',   label: '🏺 Artefatos',    file: 'artefatos_clean.json' },
+        { id: 'collections', label: '📦 Coleções',     file: 'colecoes_clean.json' },
+        { id: 'research',    label: '📜 Pesquisas',    file: 'pesquisas_clean.json' }
+    ]
 };
 
-  let state = {
-    currentTab: 'misterios',
-    data: {}
-  };
-/* ══════════════════════════════════════════
-   CONSTANTES E DADOS
-══════════════════════════════════════════ */
-
-const SITES = [
-  { id: 'varrock', name: 'Varrock', culture: 'Zarosian', level: 5 },
-  { id: 'kharid', name: 'Kharid-et', culture: 'Zarosian', level: 5 },
-  { id: 'infernal', name: 'Infernal', culture: 'Zamorakian', level: 20 },
-  { id: 'everlight', name: 'Everlight', culture: 'Saradominist', level: 42 },
-  { id: 'stormguard', name: 'Stormguard', culture: 'Armadylean', level: 60 },
-  { id: 'warforge', name: 'Warforge', culture: 'Bandosian', level: 75 },
-  { id: 'orthen', name: 'Orthen', culture: 'Draconic', level: 90 }
-];
-
-const COLLECTIONS = [
-  { id: 'c_zaros1', name: 'Zarosian I', level: 5, site: 'kharid', alignment: 'zarosian', chronotes: 250, artefacts: ['Venator dagger', 'Venator light crossbow', 'Primis Elementis standard', 'Legionary gladius', 'Legionary square shield'] },
-  { id: 'c_zam1', name: 'Zamorakian I', level: 20, site: 'infernal', alignment: 'zamorakian', chronotes: 350, artefacts: ['Hookah pipe', 'Opulent wine goblet', 'Imp mask', 'Lesser demon mask', 'Greater demon mask'] },
-  { id: 'c_sara1', name: 'Saradominist I', level: 42, site: 'everlight', alignment: 'saradominist', chronotes: 450, artefacts: ['Frying pan', 'Hallowed lantern', 'Ceremonial unicorn saddle'] }
-];
-
-const RESEARCH = [
-  { id: 'r_kh_1', name: 'Study the courtyard', level: 5, site: 'kharid', time: '2h', chronotes: 250, xp: 500, reqs: [] },
-  { id: 'r_kh_2', name: 'Excavate the prison', level: 12, site: 'kharid', time: '4h', chronotes: 500, xp: 1200, reqs: ['Breaking the Seal'] },
-  { id: 'r_ev_1', name: 'The pier', level: 42, site: 'everlight', time: '2h', chronotes: 300, xp: 800, reqs: ['Lions and Unicorns'] }
-];
-
-const MYSTERIES = [];
-const ARTEFACTS = [];
-
-// Expandir o state
-state = {
-  level: 99,
-  tab: 'overview',
-  currentTab: 'misterios',
-  data: {},
-  artView: 'table',
-  artLvl: 'my',
-  artAlign: 'all',
-  mysView: 'table',
-  mysAlign: 'all',
-  colView: 'table',
-  colAlign: 'all',
-  resView: 'table',
-  resSite: 'all',
-  done: new Set(),
+let state = {
+    level: 99,
+    currentTab: 'mysteries',
+    data: {},
+    done: new Set()
 };
-    /* ══════════════════════════════════════════
-   FUNÇÕES AUXILIARES
-══════════════════════════════════════════ */
 
-function avail(arr) {
-  return arr.filter(x => x.level <= state.level);
+// ==================== LOAD DATA ====================
+async function loadJSON(file) {
+    try {
+        const res = await fetch(CONFIG.dataPath + file);
+        if (!res.ok) throw new Error(`Arquivo ${file} não encontrado`);
+        return await res.json();
+    } catch (e) {
+        console.error(e);
+        return [];
+    }
 }
 
-function alignPill(align) {
-  const colors = {
-    zarosian: '#4a90e2',
-    zamorakian: '#e24a4a',
-    saradominist: '#4ae290',
-    armadylean: '#e2a44a',
-    bandosian: '#a44ae2',
-    draconic: '#e24aa4'
-  };
-  return `<span class="align-pill" style="background:${colors[align] || '#666'};">${align}</span>`;
+async function loadAllData() {
+    console.log("📥 Carregando JSONs...");
+    for (const tab of CONFIG.tabs) {
+        state.data[tab.id] = await loadJSON(tab.file);
+    }
+    console.log("✅ Todos os dados carregados");
+    initApp();
 }
 
-function sitePill(site) {
-  const s = SITES.find(x => x.id === site);
-  return s ? `<span class="site-pill">${s.name}</span>` : '';
-}
-
-function doneBtn(id, isCard = false) {
-  const done = state.done.has(id);
-  if (isCard) {
-    return `<button class="done-check ${done ? 'checked' : ''}" onclick="toggleDone('${id}')">✓</button>`;
-  }
-  return `<button class="done-btn ${done ? 'active' : ''}" onclick="toggleDone('${id}')">✓</button>`;
-}
+// ==================== HELPER ====================
+function isDone(id) { return state.done.has(id); }
 
 function toggleDone(id) {
-  if (state.done.has(id)) {
-    state.done.delete(id);
-  } else {
-    state.done.add(id);
-  }
-  save();
-  updateHeader();
+    if (isDone(id)) state.done.delete(id);
+    else state.done.add(id);
+    saveProgress();
+    renderCurrentTab();
 }
 
-function alignChips(options, current, callback, elementId) {
-  const labels = {
-    all: 'Todos',
-    zarosian: '🔵 Zarosian',
-    zamorakian: '🔴 Zamorakian',
-    saradominist: '🟢 Saradominist',
-    armadylean: '🟡 Armadylean',
-    bandosian: '🟣 Bandosian',
-    draconic: '🟠 Draconic'
-  };
-  
-  document.getElementById(elementId).innerHTML = options.map(o =>
-    `<button class="chip ${current === o ? 'active' : ''}" onclick="${callback}('${o}')">${labels[o] || o}</button>`
-  ).join('');
-}
-
-function save() {
-  try {
-    localStorage.setItem('rs3arch_guide', JSON.stringify({
-      level: state.level,
-      tab: state.tab,
-      done: [...state.done]
+function saveProgress() {
+    localStorage.setItem('archaeologyTracker', JSON.stringify({
+        level: state.level,
+        done: Array.from(state.done)
     }));
-  } catch (e) {}
 }
 
-function load() {
-  try {
-    const s = JSON.parse(localStorage.getItem('rs3arch_guide') || '{}') || {};
-    if (s.level) state.level = +s.level;
-    if (s.tab) state.tab = s.tab;
-    if (s.done) state.done = new Set(s.done);
-  } catch (e) {}
+function loadProgress() {
+    const saved = JSON.parse(localStorage.getItem('archaeologyTracker') || '{}');
+    if (saved.level) state.level = saved.level;
+    if (saved.done) state.done = new Set(saved.done);
+    document.getElementById('level-slider').value = state.level;
+    document.getElementById('level-val').textContent = state.level;
 }
-  // ═══════════════════════════════════════════════════════
-  // DATA LOADING
-  // ═══════════════════════════════════════════════════════
-  async function loadJSON(filename) {
-    try {
-      // Usando caminho relativo simples: ./nome-do-arquivo.json
-      const response = await fetch(`${CONFIG.dataPath}${filename}`);
-      if (!response.ok) {
-        throw new Error(`Erro ${response.status}: O arquivo ${filename} não foi encontrado.`);
-      }
-      return await response.json();
-    } catch (error) {
-      console.error(error.message);
-      return null;
-    }
-  }
+
+// ==================== RENDER FUNCTIONS ====================
+function renderMysteries() {
+    const data = state.data.mysteries || [];
+    let html = `<div class="mys-cards">`;
     
-  async function loadAllData() {
-    console.log('Carregando dados...');
-    for (const tab of CONFIG.tabs) {
-      state.data[tab.id] = await loadJSON(tab.file);
-    }
-    render();
-  }
+    data.forEach(m => {
+        const done = isDone(m.id);
+        const locked = m.level > state.level;
+        html += `
+        <div class="mys-card ${locked ? 'locked-card' : ''} ${done ? 'done' : ''}">
+            <span class="lvl-badge">${m.level}</span>
+            ${done ? `<button class="done-check checked" onclick="toggleDone('${m.id}')">✓</button>` : `<button class="done-check" onclick="toggleDone('${m.id}')">✓</button>`}
+            <h3>${m.name}</h3>
+            <p><strong>Local:</strong> ${m.digSite || '—'}</p>
+            <p><strong>Alinhamento:</strong> ${m.alignment || '—'}</p>
+            <p><strong>Requisitos:</strong> ${m.requirements ? m.requirements.map(r => `${r.skill || r.quest} ${r.level || ''}`).join(' • ') : 'Nenhum'}</p>
+            <p><strong>Recompensas:</strong><br>${m.rewards.join('<br>')}</p>
+        </div>`;
+    });
+    html += `</div>`;
+    document.getElementById('mys-content').innerHTML = html;
+}
 
-  // ═══════════════════════════════════════════════════════
-  // RENDER FUNCTIONS
-  // ═══════════════════════════════════════════════════════
-  function renderNav() {
+function renderArtefacts() {
+    const data = state.data.artefacts || [];
+    let html = `<div class="mys-cards">`;
+    
+    data.forEach(a => {
+        const done = isDone(a.name);
+        const locked = parseInt(a.level) > state.level;
+        html += `
+        <div class="mys-card ${locked ? 'locked-card' : ''} ${done ? 'done' : ''}">
+            <span class="lvl-badge">${a.level}</span>
+            ${done ? `<button class="done-check checked" onclick="toggleDone('${a.name}')">✓</button>` : `<button class="done-check" onclick="toggleDone('${a.name}')">✓</button>`}
+            <h3>${a.name}</h3>
+            <p><strong>XP:</strong> ${a.xp}</p>
+            <p><strong>Chronotes:</strong> ${a.chronotes}</p>
+            <details>
+                <summary>Ver materiais</summary>
+                <ul>${a.materials.map(m => `<li>${m}</li>`).join('')}</ul>
+            </details>
+        </div>`;
+    });
+    html += `</div>`;
+    document.getElementById('art-content').innerHTML = html;
+}
+
+function renderCollections() {
+    const data = state.data.collections || [];
+    let html = `<div class="mys-cards">`;
+    
+    data.forEach(c => {
+        const done = isDone(c.id);
+        const locked = c.level > state.level;
+        html += `
+        <div class="mys-card ${locked ? 'locked-card' : ''} ${done ? 'done' : ''}">
+            <span class="lvl-badge">${c.level || '—'}</span>
+            ${done ? `<button class="done-check checked" onclick="toggleDone('${c.id}')">✓</button>` : `<button class="done-check" onclick="toggleDone('${c.id}')">✓</button>`}
+            <h3>${c.name}</h3>
+            <p><strong>Coletor:</strong> ${c.collector || '—'}</p>
+            <p><strong>Recompensa:</strong> ${c.rewards}</p>
+        </div>`;
+    });
+    html += `</div>`;
+    document.getElementById('col-content').innerHTML = html;
+}
+
+function renderResearch() {
+    const data = state.data.research || [];
+    let html = `<div class="mys-cards">`;
+    
+    data.forEach(r => {
+        const done = isDone(r.id);
+        const locked = r.level > state.level;
+        html += `
+        <div class="mys-card ${locked ? 'locked-card' : ''} ${done ? 'done' : ''}">
+            <span class="lvl-badge">${r.level}</span>
+            ${done ? `<button class="done-check checked" onclick="toggleDone('${r.id}')">✓</button>` : `<button class="done-check" onclick="toggleDone('${r.id}')">✓</button>`}
+            <h3>${r.name}</h3>
+            <p>${r.description || ''}</p>
+            <p><strong>Recompensa:</strong> ${r.rewards}</p>
+        </div>`;
+    });
+    html += `</div>`;
+    document.getElementById('res-content').innerHTML = html;
+}
+
+function renderCurrentTab() {
+    const tab = state.currentTab;
+    if (tab === 'mysteries') renderMysteries();
+    else if (tab === 'artefacts') renderArtefacts();
+    else if (tab === 'collections') renderCollections();
+    else if (tab === 'research') renderResearch();
+}
+
+// ==================== NAV & TABS ====================
+function renderNav() {
     const nav = document.getElementById('main-nav');
-    nav.innerHTML = CONFIG.tabs
-      .map(tab => `
-        <button class="${state.currentTab === tab.id ? 'active' : ''}"
-                onclick="switchTab('${tab.id}')">
-          ${tab.label}
+    nav.innerHTML = CONFIG.tabs.map(t => `
+        <button onclick="switchTab('${t.id}')" class="${state.currentTab === t.id ? 'active' : ''}">
+            ${t.label}
         </button>
-      `)
-      .join('');
-  }
+    `).join('');
+}
 
-  function renderContent() {
-    const content = document.getElementById('main-content');
-    const fileData = state.data[state.currentTab];
-
-    if (!fileData) {
-      content.innerHTML = '<div class="loading">Carregando dados (ou arquivo não encontrado)...</div>';
-      return;
-    }
-
-    // O nosso JSON salvo tem um wrapper { data: [...] }, precisamos pegar a array de dentro
-    const currentData = fileData.data;
-
-    if (!currentData || !Array.isArray(currentData)) {
-      content.innerHTML = '<div class="error">Formato de dados inválido. O arquivo JSON deve ter uma propriedade "data" contendo uma lista.</div>';
-      return;
-    }
-
-    if (currentData.length === 0) {
-      content.innerHTML = '<div class="loading">Nenhum dado disponível</div>';
-      return;
-    }
-
-    // Como as colunas variam muito, vamos usar um renderizador genérico inteligente
-    content.innerHTML = renderGeneric(currentData, state.currentTab);
-  }
-
-  function renderGeneric(data, tabId) {
-    return `<div class="grid">
-      ${data.map(item => {
-        // Ignorar linhas de lixo geradas pela Wiki (ex: "Clear selection")
-        if (!item.name || item.name.includes('Clear selection')) return '';
-
-        let bodyHtml = '';
-        
-        // Pega todas as chaves do tipo col_1, col_2, etc...
-        const colKeys = Object.keys(item).filter(k => k.startsWith('col_'));
-
-        colKeys.forEach((key, index) => {
-          let text = item[key];
-          if (!text) return;
-
-          // Limpa o texto: a Wiki coloca muitos espaços e "shows/hides", vamos limpar e trocar quebras de linha por <br>
-          text = text.replace(/show\s+Ironmen:/g, '')
-                     .replace(/\n+/g, '<br>')
-                     .trim();
-
-          bodyHtml += `
-            <p style="margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 4px;">
-              <strong>Info ${index + 1}:</strong><br>
-              <span style="color: var(--textdim);">${text}</span>
-            </p>`;
-        });
-
-        return `
-          <div class="card">
-            <div class="card-title">${item.name}</div>
-            <div class="card-body">
-              ${bodyHtml}
-            </div>
-          </div>
-        `;
-      }).join('')}
-    </div>`;
-  }
-
-  // ═══════════════════════════════════════════════════════
-  // CONTROLS
-  // ═══════════════════════════════════════════════════════
-  function switchTab(tabId) {
+function switchTab(tabId) {
     state.currentTab = tabId;
     renderNav();
-    renderContent();
-  }
+    renderCurrentTab();
+}
 
-  function render() {
-    renderNav();
-    renderContent();
-  }
-
-  /* ══════════════════════════════════════════
-   HEADER & OVERVIEW
-══════════════════════════════════════════ */
-  function updateHeader() {
-    const am = avail(MYSTERIES), aa = avail(ARTEFACTS);
-    const ac = avail(COLLECTIONS), ar = avail(RESEARCH);
-
-    const doneM = am.filter(x => state.done.has(x.id)).length;
-    const doneA = aa.filter(x => state.done.has(x.id)).length;
-    const doneC = ac.filter(x => state.done.has(x.id)).length;
-    const doneR = ar.filter(x => state.done.has(x.id)).length;
-
-    const total = am.length + aa.length + ac.length + ar.length;
-    const done = doneM + doneA + doneC + doneR;
-    const pct = total ? Math.round(done / total * 100) : 0;
-
-    document.getElementById('hdr-avail').textContent = total;
-    document.getElementById('hdr-done-count').textContent = done;
-    document.getElementById('hdr-pct').textContent = pct + '%';
-  }
-
-  function renderOverview() {
-    const lvl = state.level;
-
-    const am = avail(MYSTERIES), aa = avail(ARTEFACTS);
-    const ac = avail(COLLECTIONS), ar = avail(RESEARCH);
-
-    const dm = am.filter(x => state.done.has(x.id)).length;
-    const da = aa.filter(x => state.done.has(x.id)).length;
-    const dc = ac.filter(x => state.done.has(x.id)).length;
-    const dr = ar.filter(x => state.done.has(x.id)).length;
-
-    function sc(icon, label, done, total) {
-      const pct = total ? Math.round(done / total * 100) : 0;
-      return `<div class="stat-card" data-icon="${icon}"><h3>${label.toUpperCase()}</h3><div class="stat-big">${done}<span>/${total}</span></div><div class="stat-sub">${total - done} restantes · ${pct}%</div><div class="prog-bar"><div class="prog-fill" style="width:${pct}%"></div></div></div>`;
-    }
-
-    document.getElementById('ov-stats').innerHTML =
-      sc('🏺', 'Artefatos', da, aa.length) +
-      sc('🔮', 'Mistérios', dm, am.length) +
-      sc('📦', 'Coleções', dc, ac.length) +
-      sc('📜', 'Pesquisas', dr, ar.length);
-
-    const ju = [
-      ...MYSTERIES.filter(x => x.level === lvl).map(x => ({ label: x.name, cat: '🔮 Mistério', lvl: x.level })),
-      ...ARTEFACTS.filter(x => x.level === lvl).map(x => ({ label: x.name, cat: '🏺 Artefato', lvl: x.level })),
-      ...COLLECTIONS.filter(x => x.level === lvl).map(x => ({ label: x.name, cat: '📦 Coleção', lvl: x.level })),
-      ...RESEARCH.filter(x => x.level === lvl).map(x => ({ label: x.name, cat: '📜 Pesquisa', lvl: x.level })),
-    ];
-
-    const uEl = document.getElementById('ov-unlocks');
-    if (ju.length) {
-      uEl.style.display = 'block';
-      document.getElementById('ov-unlock-list').innerHTML = ju.map(u =>
-        `<div class="ub-item"><span class="lvl-pip">Nv ${u.lvl}</span><span style="font-size:11px;color:var(--text-dim)">${u.cat}</span>${u.label}</div>`
-      ).join('');
-    } else {
-      uEl.style.display = 'none';
-    }
-
-    document.getElementById('ov-sites').innerHTML = SITES.map(s => {
-      const locked = lvl < s.level;
-      const arts = ARTEFACTS.filter(x => x.site === s.id).length;
-      const avArts = ARTEFACTS.filter(x => x.site === s.id && x.level <= lvl).length;
-
-      const myss = MYSTERIES.filter(x => x.site === s.id).length;
-      const avMyss = MYSTERIES.filter(x => x.site === s.id && x.level <= lvl).length;
-
-      const cols = COLLECTIONS.filter(x => x.site === s.id).length;
-      const avCols = COLLECTIONS.filter(x => x.site === s.id && x.level <= lvl).length;
-
-      const ress = RESEARCH.filter(x => x.site === s.id).length;
-      const avRess = RESEARCH.filter(x => x.site === s.id && x.level <= lvl).length;
-
-      return `
-        <div class="site-card ${locked ? 'locked' : ''}" data-s="${s.id}">
-          <div class="sc-name">${s.name} ${locked ? '🔒' : ''}</div>
-          <div class="sc-culture">${s.culture} · Nível ${s.level}</div>
-          <div class="sc-stats">
-            <div class="sc-stat"><strong>${avArts}/${arts}</strong> artefatos</div>
-            <div class="sc-stat"><strong>${avMyss}/${myss}</strong> mistérios</div>
-            <div class="sc-stat"><strong>${avCols}/${cols}</strong> coleções</div>
-            <div class="sc-stat"><strong>${avRess}/${ress}</strong> pesquisas</div>
-          </div>
-        </div>`;
-    }).join('');
-  }
-
-  /* ══════════════════════════════════════════
-   COLEÇÕES
-══════════════════════════════════════════ */
-  function renderCollections() {
-    alignChips(['all', 'zarosian', 'zamorakian', 'saradominist', 'armadylean', 'bandosian', 'draconic'], state.colAlign, 'colSetAlign', 'col-align-chips');
-    document.getElementById('col-view-table').classList.toggle('active', state.colView === 'table');
-    document.getElementById('col-view-card').classList.toggle('active', state.colView === 'card');
-
-    const arr = COLLECTIONS.filter(c => state.colAlign === 'all' || c.alignment === state.colAlign);
-
-    if (!arr.length) { document.getElementById('col-content').innerHTML = '<div class="empty"><div class="empty-icon">📦</div><p>Nenhuma coleção encontrada.</p></div>'; return; }
-
-    if (state.colView === 'table') {
-      const rows = arr.map(c => {
-        const locked = c.level > state.level;
-        const done = state.done.has(c.id);
-        const artsHtml = c.artefacts.map(a => `<div class="mat-line">• ${a}</div>`).join('');
-        return `<tr class="${locked ? 'locked-row' : ''} ${done ? 'done-row' : ''}">
-          <td><span class="lvl-badge">${c.level}</span></td>
-          <td><div class="item-name">${c.name}</div><div style="margin-top:4px;">${alignPill(c.alignment)}</div></td>
-          <td>${sitePill(c.site)}</td>
-          <td>${artsHtml}</td>
-          <td><span class="chron-val">${c.chronotes}</span></td>
-          <td>${doneBtn(c.id)}</td>
-        </tr>`;
-      }).join('');
-
-      document.getElementById('col-content').innerHTML = `<div class="tbl-wrap"><table class="data-table"><thead><tr>
-        <th>Nível</th><th>Nome</th><th>Dig Site</th><th>Artefatos</th><th>Chronotes Base</th><th></th>
-      </tr></thead><tbody>${rows}</tbody></table></div>`;
-    } else {
-      const cards = arr.map(c => {
-        const locked = c.level > state.level;
-        const done = state.done.has(c.id);
-        const artsHtml = c.artefacts.map(a => `<span class="col-tag" style="margin-top:2px;">${a}</span>`).join('');
-        return `<div class="mys-card ${locked ? 'locked-card' : ''} ${done ? 'done-card' : ''}" data-al="${c.alignment}">
-          <span class="lvl-badge">${c.level}</span>
-          <div class="mys-card-body">
-            <div class="item-name">${c.name}</div>
-            <div class="card-sub" style="margin-top:4px;display:flex;gap:6px;flex-wrap:wrap">${alignPill(c.alignment)} ${sitePill(c.site)}</div>
-            <div style="margin-top:8px;font-size:12px;color:var(--text-dim);">Recompensa: <span class="chron-val">${c.chronotes} Chronotes</span></div>
-            <div style="margin-top:6px;">${artsHtml}</div>
-          </div>
-          ${doneBtn(c.id, true)}
-        </div>`;
-      }).join('');
-      document.getElementById('col-content').innerHTML = `<div class="mys-cards">${cards}</div>`;
-    }
-  }
-
-  /* ══════════════════════════════════════════
-   PESQUISAS
-══════════════════════════════════════════ */
-  function renderResearch() {
-    const siteOpts = ['all', ...SITES.map(s => s.id)];
-    const labels = { all: 'Todos', varrock: 'Varrock', kharid: 'Kharid-et', infernal: 'Infernal', everlight: 'Everlight', stormguard: 'Stormguard', warforge: 'Warforge', orthen: 'Orthen' };
-    document.getElementById('res-site-chips').innerHTML = siteOpts.map(s =>
-      `<button class="chip ${state.resSite === s ? 'active' : ''}" onclick="resSetSite('${s}')">${labels[s]}</button>`
-    ).join('');
-
-    document.getElementById('res-view-table').classList.toggle('active', state.resView === 'table');
-    document.getElementById('res-view-card').classList.toggle('active', state.resView === 'card');
-
-    const arr = RESEARCH.filter(r => state.resSite === 'all' || r.site === state.resSite);
-
-    if (!arr.length) { document.getElementById('res-content').innerHTML = '<div class="empty"><div class="empty-icon">📜</div><p>Nenhuma pesquisa encontrada.</p></div>'; return; }
-
-    if (state.resView === 'table') {
-      const rows = arr.map(r => {
-        const locked = r.level > state.level;
-        const done = state.done.has(r.id);
-        const reqs = r.reqs.length ? r.reqs.join(', ') : 'Nenhum';
-        return `<tr class="${locked ? 'locked-row' : ''} ${done ? 'done-row' : ''}">
-          <td><span class="lvl-badge">${r.level}</span></td>
-          <td><div class="item-name">${r.name}</div></td>
-          <td>${sitePill(r.site)}</td>
-          <td><span style="color:var(--text-dim)">⏱️ ${r.time}</span></td>
-          <td><span class="chron-val">🪙 ${r.chronotes}</span></td>
-          <td><span class="xp-val">⭐ ${r.xp}</span></td>
-          <td style="font-size:12px;color:var(--text-dim)">${reqs}</td>
-          <td>${doneBtn(r.id)}</td>
-        </tr>`;
-      }).join('');
-
-      document.getElementById('res-content').innerHTML = `<div class="tbl-wrap"><table class="data-table"><thead><tr>
-        <th>Nível</th><th>Nome</th><th>Dig Site</th><th>Duração</th><th>Custo (Chronotes)</th><th>XP Base</th><th>Requisitos</th><th></th>
-      </tr></thead><tbody>${rows}</tbody></table></div>`;
-    } else {
-      const cards = arr.map(r => {
-        const locked = r.level > state.level;
-        const done = state.done.has(r.id);
-        const reqs = r.reqs.length ? `<div style="margin-top:6px;font-size:11px;color:var(--red);">Requer: ${r.reqs.join(', ')}</div>` : '';
-        return `<div class="mys-card ${locked ? 'locked-card' : ''} ${done ? 'done-card' : ''}">
-          <span class="lvl-badge">${r.level}</span>
-          <div class="mys-card-body">
-            <div class="item-name">${r.name}</div>
-            <div class="card-sub" style="margin-top:4px;">${sitePill(r.site)}</div>
-            <div style="margin-top:8px;display:flex;gap:12px;font-size:12px;">
-              <span style="color:var(--text-dim)">⏱️ ${r.time}</span>
-              <span class="chron-val">🪙 ${r.chronotes}</span>
-              <span class="xp-val">⭐ ${r.xp} XP</span>
-            </div>
-            ${reqs}
-          </div>
-          ${doneBtn(r.id, true)}
-        </div>`;
-      }).join('');
-      document.getElementById('res-content').innerHTML = `<div class="mys-cards">${cards}</div>`;
-    }
-  }
-
-  /* ══════════════════════════════════════════
-   CONTROLES
-══════════════════════════════════════════ */
-  function setTab(t) {
-    state.tab = t;
-    document.querySelectorAll('nav button').forEach(b => b.classList.toggle('active', b.dataset.tab === t));
-    document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === 'tab-' + t));
-    save();
-    if (t === 'overview') renderOverview();
-    if (t === 'artefacts') renderContent();
-    if (t === 'mysteries') renderContent();
-    if (t === 'collections') renderCollections();
-    if (t === 'research') renderResearch();
-  }
-
-  function setLevel(v) {
-    state.level = Math.max(1, Math.min(120, +v || 1));
+// ==================== LEVEL SLIDER ====================
+function setLevel(val) {
+    state.level = parseInt(val);
     document.getElementById('level-val').textContent = state.level;
-    document.getElementById('level-slider').value = state.level;
-    save();
-    updateHeader();
-    if (state.tab === 'overview') renderOverview();
-    if (state.tab === 'collections') renderCollections();
-    if (state.tab === 'research') renderResearch();
-  }
+    saveProgress();
+    renderCurrentTab();
+}
 
-  function colSetView(v) { state.colView = v; save(); renderCollections(); }
-  function colSetAlign(a) { state.colAlign = a; save(); renderCollections(); }
-  function resSetView(v) { state.resView = v; save(); renderResearch(); }
-  function resSetSite(s) { state.resSite = s; save(); renderResearch(); }
-  // ═══════════════════════════════════════════════════════
-  // INIT
-  // ═══════════════════════════════════════════════════════
-    async function loadAllData() {
-    console.log('Carregando dados...');
-    for (const tab of CONFIG.tabs) {
-      state.data[tab.id] = await loadJSON(tab.file);
-    }
-    // Converte dados do JSON para MYSTERIES e ARTEFACTS
-    if (state.data.misterios?.data) {
-      state.data.misterios.data.forEach((m, idx) => {
-        MYSTERIES.push({
-          id: 'm_' + idx,
-          name: m.name,
-          level: m.level || 5,
-          site: m.site || 'varrock'
-        });
-      });
-    }
-    if (state.data.artefatos?.data) {
-      state.data.artefatos.data.forEach((a, idx) => {
-        ARTEFACTS.push({
-          id: 'a_' + idx,
-          name: a.name,
-          level: a.level || 5,
-          site: a.site || 'varrock'
-        });
-      });
-    }
-    load();
-    updateHeader();
-    setTab('overview');
-  }
+// ==================== INIT ====================
+function initApp() {
+    loadProgress();
+    renderNav();
+    renderCurrentTab();
+}
+
+// ==================== START ====================
+loadAllData();
 </script>
-
 </body>
 </html>
