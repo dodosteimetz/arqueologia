@@ -106,9 +106,9 @@
         <span>Progresso: <b id="stat-pct">0%</b></span>
     </div>
     <nav id="main-nav">
-        <button onclick="setTab('artefacts')" id="btn-artefacts">Artefatos</button>
-        <button onclick="setTab('collections')" id="btn-collections">Coleções</button>
-        <button onclick="setTab('materials')" id="btn-materials">Materiais</button>
+        <button onclick="switchTab('artefacts')" id="btn-artefacts">Artefatos</button>
+        <button onclick="switchTab('collections')" id="btn-collections">Coleções</button>
+        <button onclick="switchTab('materials')" id="btn-materials">Materiais</button>
     </nav>
 </header>
 
@@ -164,7 +164,7 @@
   // RENDER FUNCTIONS
   // ═══════════════════════════════════════════════════════
   function renderNav() {
-    const nav = document.getElementById('nav-tabs');
+    const nav = document.getElementById('main-nav');
     nav.innerHTML = CONFIG.tabs
       .map(tab => `
         <button class="${state.currentTab === tab.id ? 'active' : ''}"
@@ -176,7 +176,7 @@
   }
 
   function renderContent() {
-    const content = document.getElementById('content');
+    const content = document.getElementById('main-content');
     const fileData = state.data[state.currentTab];
 
     if (!fileData) {
