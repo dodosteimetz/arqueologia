@@ -139,17 +139,24 @@
   // DATA LOADING
   // ═══════════════════════════════════════════════════════
   async function loadJSON(filename) {
+    // Pegamos o caminho base da URL atual para evitar erros no GitHub Pages
+    const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
+    const finalUrl = `${baseUrl}/${filename}`.replace(/\/+/g, '/').replace(':/', '://');
+
+    console.log(`Tentando carregar: ${finalUrl}`);
+
     try {
-      // Adicionado cache='no-store' para evitar carregar versão velha caso você atualize os jsons
-      const response = await fetch(`${CONFIG.dataPath}/${filename}`, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const response = await fetch(finalUrl, { cache: 'no-store' });
+      if (!response.ok) {
+        throw new Error(`Arquivo ${filename} não encontrado (Erro ${response.status})`);
+      }
       return await response.json();
     } catch (error) {
-      console.error(`Erro ao carregar ${filename}:`, error);
+      console.error(`Erro crítico ao carregar ${filename}:`, error);
       return null;
     }
   }
-
+    
   async function loadAllData() {
     console.log('Carregando dados...');
     for (const tab of CONFIG.tabs) {
