@@ -1,0 +1,2834 @@
+{
+  "extracted_at": "2026-04-09T09:40:53.613Z",
+  "source_url": "https://runescape.wiki/w/Research",
+  "total_items": 123,
+  "data": [
+    {
+      "name": "40",
+      "wikiLinks": [],
+      "col_1": "200.0",
+      "col_2": "210.0",
+      "col_3": "N/A",
+      "col_4": "67",
+      "col_5": "850.0",
+      "col_6": "892.5",
+      "col_7": "N/A",
+      "col_8": "94",
+      "col_9": "2,857.1",
+      "col_10": "2,999.9",
+      "col_11": "3,142.8"
+    },
+    {
+      "name": "41",
+      "wikiLinks": [],
+      "col_1": "215.0",
+      "col_2": "225.7",
+      "col_3": "N/A",
+      "col_4": "68",
+      "col_5": "900.0",
+      "col_6": "945.0",
+      "col_7": "N/A",
+      "col_8": "95",
+      "col_9": "3,035.7",
+      "col_10": "3,187.4",
+      "col_11": "3,339.2"
+    },
+    {
+      "name": "42",
+      "wikiLinks": [],
+      "col_1": "230.0",
+      "col_2": "241.5",
+      "col_3": "N/A",
+      "col_4": "69",
+      "col_5": "950.0",
+      "col_6": "997.5",
+      "col_7": "N/A",
+      "col_8": "96",
+      "col_9": "3,214.2",
+      "col_10": "3,374.9",
+      "col_11": "3,535.6"
+    },
+    {
+      "name": "43",
+      "wikiLinks": [],
+      "col_1": "245.0",
+      "col_2": "257.2",
+      "col_3": "N/A",
+      "col_4": "70",
+      "col_5": "1,000.0",
+      "col_6": "1,050.0",
+      "col_7": "1,100.0",
+      "col_8": "97",
+      "col_9": "3,392.8",
+      "col_10": "3,562.4",
+      "col_11": "3,732.0"
+    },
+    {
+      "name": "44",
+      "wikiLinks": [],
+      "col_1": "260.0",
+      "col_2": "273.0",
+      "col_3": "N/A",
+      "col_4": "71",
+      "col_5": "1,050.0",
+      "col_6": "1,102.5",
+      "col_7": "1,155.0",
+      "col_8": "98",
+      "col_9": "3,571.4",
+      "col_10": "3,749.9",
+      "col_11": "3,928.5"
+    },
+    {
+      "name": "45",
+      "wikiLinks": [],
+      "col_1": "275.0",
+      "col_2": "288.7",
+      "col_3": "N/A",
+      "col_4": "72",
+      "col_5": "1,100.0",
+      "col_6": "1,155.0",
+      "col_7": "1,210.0",
+      "col_8": "99",
+      "col_9": "3,750.0",
+      "col_10": "3,937.5",
+      "col_11": "4,125.0"
+    },
+    {
+      "name": "46",
+      "wikiLinks": [],
+      "col_1": "290.0",
+      "col_2": "304.5",
+      "col_3": "N/A",
+      "col_4": "73",
+      "col_5": "1,150.0",
+      "col_6": "1,207.5",
+      "col_7": "1,265.0",
+      "col_8": "100",
+      "col_9": "4,000.0",
+      "col_10": "4,200.0",
+      "col_11": "4,400.0"
+    },
+    {
+      "name": "47",
+      "wikiLinks": [],
+      "col_1": "305.0",
+      "col_2": "320.2",
+      "col_3": "N/A",
+      "col_4": "74",
+      "col_5": "1,200.0",
+      "col_6": "1,260.0",
+      "col_7": "1,320.0",
+      "col_8": "101",
+      "col_9": "4,250.0",
+      "col_10": "4,462.5",
+      "col_11": "4,675.0"
+    },
+    {
+      "name": "48",
+      "wikiLinks": [],
+      "col_1": "320.0",
+      "col_2": "336.0",
+      "col_3": "N/A",
+      "col_4": "75",
+      "col_5": "1,250.0",
+      "col_6": "1,312.5",
+      "col_7": "1,375.0",
+      "col_8": "102",
+      "col_9": "4,500.0",
+      "col_10": "4,725.0",
+      "col_11": "4,950.0"
+    },
+    {
+      "name": "49",
+      "wikiLinks": [],
+      "col_1": "335.0",
+      "col_2": "351.7",
+      "col_3": "N/A",
+      "col_4": "76",
+      "col_5": "1,300.0",
+      "col_6": "1,365.0",
+      "col_7": "1,430.0",
+      "col_8": "103",
+      "col_9": "4,750.0",
+      "col_10": "4,987.5",
+      "col_11": "5,225.0"
+    },
+    {
+      "name": "50",
+      "wikiLinks": [],
+      "col_1": "350.0",
+      "col_2": "367.5",
+      "col_3": "N/A",
+      "col_4": "77",
+      "col_5": "1,350.0",
+      "col_6": "1,417.5",
+      "col_7": "1,485.0",
+      "col_8": "104",
+      "col_9": "5,000.0",
+      "col_10": "5,250.0",
+      "col_11": "5,500.0"
+    },
+    {
+      "name": "51",
+      "wikiLinks": [],
+      "col_1": "365.0",
+      "col_2": "383.2",
+      "col_3": "N/A",
+      "col_4": "78",
+      "col_5": "1,400.0",
+      "col_6": "1,470.0",
+      "col_7": "1,540.0",
+      "col_8": "105",
+      "col_9": "5,250.0",
+      "col_10": "5,512.5",
+      "col_11": "5,775.0"
+    },
+    {
+      "name": "52",
+      "wikiLinks": [],
+      "col_1": "380.0",
+      "col_2": "399.0",
+      "col_3": "N/A",
+      "col_4": "79",
+      "col_5": "1,450.0",
+      "col_6": "1,522.5",
+      "col_7": "1,595.0",
+      "col_8": "106",
+      "col_9": "5,500.0",
+      "col_10": "5,775.0",
+      "col_11": "6,050.0"
+    },
+    {
+      "name": "53",
+      "wikiLinks": [],
+      "col_1": "395.0",
+      "col_2": "414.7",
+      "col_3": "N/A",
+      "col_4": "80",
+      "col_5": "1,500.0",
+      "col_6": "1,575.0",
+      "col_7": "1,650.0",
+      "col_8": "107",
+      "col_9": "5,785.7",
+      "col_10": "6,074.9",
+      "col_11": "6,364.2"
+    },
+    {
+      "name": "54",
+      "wikiLinks": [],
+      "col_1": "410.0",
+      "col_2": "430.5",
+      "col_3": "N/A",
+      "col_4": "81",
+      "col_5": "1,583.3",
+      "col_6": "1,662.4",
+      "col_7": "1,741.6",
+      "col_8": "108",
+      "col_9": "6,071.4",
+      "col_10": "6,374.9",
+      "col_11": "6,678.5"
+    },
+    {
+      "name": "55",
+      "wikiLinks": [],
+      "col_1": "425.0",
+      "col_2": "446.2",
+      "col_3": "N/A",
+      "col_4": "82",
+      "col_5": "1,666.6",
+      "col_6": "1,749.9",
+      "col_7": "1,833.2",
+      "col_8": "109",
+      "col_9": "6,357.1",
+      "col_10": "6,674.9",
+      "col_11": "6,992.8"
+    },
+    {
+      "name": "56",
+      "wikiLinks": [],
+      "col_1": "440.0",
+      "col_2": "462.0",
+      "col_3": "N/A",
+      "col_4": "83",
+      "col_5": "1,750.0",
+      "col_6": "1,837.5",
+      "col_7": "1,925.0",
+      "col_8": "110",
+      "col_9": "6,642.8",
+      "col_10": "6,974.9",
+      "col_11": "7,307.0"
+    },
+    {
+      "name": "57",
+      "wikiLinks": [],
+      "col_1": "455.0",
+      "col_2": "477.7",
+      "col_3": "N/A",
+      "col_4": "84",
+      "col_5": "1,833.3",
+      "col_6": "1,924.9",
+      "col_7": "2,016.6",
+      "col_8": "111",
+      "col_9": "6,928.5",
+      "col_10": "7,274.9",
+      "col_11": "7,621.3"
+    },
+    {
+      "name": "58",
+      "wikiLinks": [],
+      "col_1": "470.0",
+      "col_2": "493.5",
+      "col_3": "N/A",
+      "col_4": "85",
+      "col_5": "1,916.6",
+      "col_6": "2,012.4",
+      "col_7": "2,108.2",
+      "col_8": "112",
+      "col_9": "7,214.2",
+      "col_10": "7,574.9",
+      "col_11": "7,935.6"
+    },
+    {
+      "name": "59",
+      "wikiLinks": [],
+      "col_1": "485.0",
+      "col_2": "509.2",
+      "col_3": "N/A",
+      "col_4": "86",
+      "col_5": "2,000.0",
+      "col_6": "2,100.0",
+      "col_7": "2,200.0",
+      "col_8": "113",
+      "col_9": "7,500.0",
+      "col_10": "7,875.0",
+      "col_11": "8,250.0"
+    },
+    {
+      "name": "60",
+      "wikiLinks": [],
+      "col_1": "500.0",
+      "col_2": "525.0",
+      "col_3": "N/A",
+      "col_4": "87",
+      "col_5": "2,083.3",
+      "col_6": "2,187.4",
+      "col_7": "2,291.6",
+      "col_8": "114",
+      "col_9": "7,857.1",
+      "col_10": "8,249.9",
+      "col_11": "8,642.8"
+    },
+    {
+      "name": "61",
+      "wikiLinks": [],
+      "col_1": "550.0",
+      "col_2": "577.5",
+      "col_3": "N/A",
+      "col_4": "88",
+      "col_5": "2,166.6",
+      "col_6": "2,274.9",
+      "col_7": "2,383.2",
+      "col_8": "115",
+      "col_9": "8,214.2",
+      "col_10": "8,624.9",
+      "col_11": "9,035.6"
+    },
+    {
+      "name": "62",
+      "wikiLinks": [],
+      "col_1": "600.0",
+      "col_2": "630.0",
+      "col_3": "N/A",
+      "col_4": "89",
+      "col_5": "2,250.0",
+      "col_6": "2,362.5",
+      "col_7": "2,475.0",
+      "col_8": "116",
+      "col_9": "8,571.4",
+      "col_10": "8,999.9",
+      "col_11": "9,428.5"
+    },
+    {
+      "name": "63",
+      "wikiLinks": [],
+      "col_1": "650.0",
+      "col_2": "682.5",
+      "col_3": "N/A",
+      "col_4": "90",
+      "col_5": "2,333.3",
+      "col_6": "2,449.9",
+      "col_7": "2,566.6",
+      "col_8": "117",
+      "col_9": "8,928.5",
+      "col_10": "9,374.9",
+      "col_11": "9,821.3"
+    },
+    {
+      "name": "64",
+      "wikiLinks": [],
+      "col_1": "700.0",
+      "col_2": "735.0",
+      "col_3": "N/A",
+      "col_4": "91",
+      "col_5": "2,416.6",
+      "col_6": "2,537.4",
+      "col_7": "2,658.2",
+      "col_8": "118",
+      "col_9": "9,285.7",
+      "col_10": "9,749.9",
+      "col_11": "10,214.2"
+    },
+    {
+      "name": "65",
+      "wikiLinks": [],
+      "col_1": "750.0",
+      "col_2": "787.5",
+      "col_3": "N/A",
+      "col_4": "92",
+      "col_5": "2,500.0",
+      "col_6": "2,625.0",
+      "col_7": "2,750.0",
+      "col_8": "119",
+      "col_9": "9,642.8",
+      "col_10": "10,124.9",
+      "col_11": "10,607.0"
+    },
+    {
+      "name": "66",
+      "wikiLinks": [],
+      "col_1": "800.0",
+      "col_2": "840.0",
+      "col_3": "N/A",
+      "col_4": "93",
+      "col_5": "2,678.5",
+      "col_6": "2,812.4",
+      "col_7": "2,946.3",
+      "col_8": "120",
+      "col_9": "10,000.0",
+      "col_10": "10,500.0",
+      "col_11": "11,000.0"
+    },
+    {
+      "name": "Mysterious Monolith: Existence",
+      "wikiLinks": [
+        {
+          "text": "Mysterious Monolith: Existence",
+          "href": "https://runescape.wiki/w/Mysterious_Monolith:_Existence"
+        },
+        {
+          "text": "Assistant qualification",
+          "href": "https://runescape.wiki/w/Qualification_-_Assistant"
+        },
+        {
+          "text": "monolith",
+          "href": "https://runescape.wiki/w/Mysterious_monolith"
+        }
+      ],
+      "col_1": "40",
+      "col_2": "Reach Assistant qualification.",
+      "col_3": "0",
+      "col_4": "1,000",
+      "col_5": "Ability to harness more energy from the monolith (+100 energy)"
+    },
+    {
+      "name": "Mysterious Monolith: Architecture",
+      "wikiLinks": [
+        {
+          "text": "Mysterious Monolith: Architecture",
+          "href": "https://runescape.wiki/w/Mysterious_Monolith:_Architecture"
+        },
+        {
+          "text": "Associate qualification",
+          "href": "https://runescape.wiki/w/Qualification_-_Associate"
+        },
+        {
+          "text": "monolith",
+          "href": "https://runescape.wiki/w/Mysterious_monolith"
+        }
+      ],
+      "col_1": "70",
+      "col_2": "Reach Associate qualification.",
+      "col_3": "175",
+      "col_4": "5,000",
+      "col_5": "Ability to harness more energy from the monolith (+150 energy)"
+    },
+    {
+      "name": "Mysterious Monolith: Symbology",
+      "wikiLinks": [
+        {
+          "text": "Mysterious Monolith: Symbology",
+          "href": "https://runescape.wiki/w/Mysterious_Monolith:_Symbology"
+        },
+        {
+          "text": "Professor qualification",
+          "href": "https://runescape.wiki/w/Qualification_-_Professor"
+        },
+        {
+          "text": "monolith",
+          "href": "https://runescape.wiki/w/Mysterious_monolith"
+        }
+      ],
+      "col_1": "90",
+      "col_2": "Reach Professor qualification.",
+      "col_3": "225",
+      "col_4": "11,666.5",
+      "col_5": "Ability to harness more energy from the monolith (+100 energy)"
+    },
+    {
+      "name": "Philosophy",
+      "wikiLinks": [
+        {
+          "text": "Philosophy",
+          "href": "https://runescape.wiki/w/Philosophy"
+        },
+        {
+          "text": "energised meteorite shard",
+          "href": "https://runescape.wiki/w/Energised_meteorite_shard"
+        },
+        {
+          "text": "crystal mattock",
+          "href": "https://runescape.wiki/w/Crystal_mattock"
+        },
+        {
+          "text": "Imcando mattock",
+          "href": "https://runescape.wiki/w/Imcando_mattock"
+        },
+        {
+          "text": "meteorite shard",
+          "href": "https://runescape.wiki/w/Energised_meteorite_shard"
+        },
+        {
+          "text": "mattock of time and space",
+          "href": "https://runescape.wiki/w/Mattock_of_time_and_space"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Purchase the energised meteorite shard.",
+      "col_3": "245",
+      "col_4": "18,750",
+      "col_5": "Ability to combine a crystal mattock and Imcando mattock with a meteorite shard to create the mattock of time and space"
+    },
+    {
+      "name": "Writings of the Walls: Kharid-et",
+      "wikiLinks": [
+        {
+          "text": "Writings of the Walls: Kharid-et",
+          "href": "https://runescape.wiki/w/Writings_of_the_Walls:_Kharid-et"
+        },
+        {
+          "text": "strange writing",
+          "href": "https://runescape.wiki/w/Strange_writing"
+        },
+        {
+          "text": "prison block",
+          "href": "https://runescape.wiki/w/Prison_block"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "master archaeologist's outfit",
+          "href": "https://runescape.wiki/w/Master_archaeologist%27s_outfit"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Study strange writing on the east side of the maximum security area of the prison block of Kharid-et Dig Site while wearing the master archaeologist's outfit.",
+      "col_3": "245",
+      "col_4": "18,750",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Writings of the Walls: Infernal Source",
+      "wikiLinks": [
+        {
+          "text": "Writings of the Walls: Infernal Source",
+          "href": "https://runescape.wiki/w/Writings_of_the_Walls:_Infernal_Source"
+        },
+        {
+          "text": "strange writing",
+          "href": "https://runescape.wiki/w/Strange_writing"
+        },
+        {
+          "text": "Dungeon of Disorder",
+          "href": "https://runescape.wiki/w/Dungeon_of_Disorder"
+        },
+        {
+          "text": "Infernal Source Dig Site",
+          "href": "https://runescape.wiki/w/Infernal_Source_Dig_Site"
+        },
+        {
+          "text": "master archaeologist's outfit",
+          "href": "https://runescape.wiki/w/Master_archaeologist%27s_outfit"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Study strange writing on the western wall in the first room of the Dungeon of Disorder in Infernal Source Dig Site while wearing the master archaeologist's outfit.",
+      "col_3": "245",
+      "col_4": "18,750",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Writings of the Walls: Everlight",
+      "wikiLinks": [
+        {
+          "text": "Writings of the Walls: Everlight",
+          "href": "https://runescape.wiki/w/Writings_of_the_Walls:_Everlight"
+        },
+        {
+          "text": "strange writing",
+          "href": "https://runescape.wiki/w/Strange_writing"
+        },
+        {
+          "text": "underground marble corridor",
+          "href": "https://runescape.wiki/w/Everlight_-_Underwater_cave_excavation_site"
+        },
+        {
+          "text": "Acropolis",
+          "href": "https://runescape.wiki/w/Everlight_-_Acropolis_excavation_site"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "master archaeologist's outfit",
+          "href": "https://runescape.wiki/w/Master_archaeologist%27s_outfit"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Study strange writing at the western end of an underground marble corridor, accessed by entering the door in the Acropolis of Everlight Dig Site while wearing the master archaeologist's outfit.",
+      "col_3": "245",
+      "col_4": "18,750",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Writings of the Walls: Stormguard",
+      "wikiLinks": [
+        {
+          "text": "Writings of the Walls: Stormguard",
+          "href": "https://runescape.wiki/w/Writings_of_the_Walls:_Stormguard"
+        },
+        {
+          "text": "strange writing",
+          "href": "https://runescape.wiki/w/Strange_writing"
+        },
+        {
+          "text": "Research & Development north-west excavation site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_-_Research_%26_Development_north-west_excavation_site"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "master archaeologist's outfit",
+          "href": "https://runescape.wiki/w/Master_archaeologist%27s_outfit"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Study strange writing on the eastern wall of the building in Research & Development north-west excavation site of Stormguard Citadel Dig Site while wearing the master archaeologist's outfit.",
+      "col_3": "245",
+      "col_4": "18,750",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Writings of the Walls: Warforge",
+      "wikiLinks": [
+        {
+          "text": "Writings of the Walls: Warforge",
+          "href": "https://runescape.wiki/w/Writings_of_the_Walls:_Warforge"
+        },
+        {
+          "text": "strange writing",
+          "href": "https://runescape.wiki/w/Strange_writing"
+        },
+        {
+          "text": "Thalmund's Forge",
+          "href": "https://runescape.wiki/w/Thalmund%27s_Forge"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "master archaeologist's outfit",
+          "href": "https://runescape.wiki/w/Master_archaeologist%27s_outfit"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Study strange writing in the elevated north-western corner of Thalmund's Forge at Warforge Dig Site while wearing the master archaeologist's outfit.",
+      "col_3": "245",
+      "col_4": "18,750",
+      "col_5": "N/A"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/9)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Ikovian Tragedy",
+      "wikiLinks": [
+        {
+          "text": "Ikovian Tragedy",
+          "href": "https://runescape.wiki/w/Ikovian_Tragedy"
+        },
+        {
+          "text": "Ikovian temple",
+          "href": "https://runescape.wiki/w/Ikovian_temple"
+        },
+        {
+          "text": "Temple of Ikov excavation site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_-_Temple_of_Ikov_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Ikovian_gerege_(damaged)"
+        },
+        {
+          "text": "Ikovian gerege (damaged)",
+          "href": "https://runescape.wiki/w/Ikovian_gerege_(damaged)"
+        }
+      ],
+      "col_1": "70",
+      "col_2": "Study the Ikovian temple by clicking either the northern or southern archway in the Temple of Ikov excavation site.",
+      "col_3": "233",
+      "col_4": "6,666.6",
+      "col_5": "Ikovian gerege (damaged)"
+    },
+    {
+      "name": "Deer-ly Departed",
+      "wikiLinks": [
+        {
+          "text": "Deer-ly Departed",
+          "href": "https://runescape.wiki/w/Deer-ly_Departed"
+        },
+        {
+          "text": "memorial megalith",
+          "href": "https://runescape.wiki/w/Memorial_megalith"
+        },
+        {
+          "text": "Keshik memorial excavation site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_-_Keshik_memorial_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Aviansie_dreamcoat_(damaged)"
+        },
+        {
+          "text": "Aviansie dreamcoat (damaged)",
+          "href": "https://runescape.wiki/w/Aviansie_dreamcoat_(damaged)"
+        }
+      ],
+      "col_1": "81",
+      "col_2": "Study the memorial megalith in the Keshik memorial excavation site.",
+      "col_3": "266",
+      "col_4": "10,555.3",
+      "col_5": "Aviansie dreamcoat (damaged)"
+    },
+    {
+      "name": "The Aetherium Giant",
+      "wikiLinks": [
+        {
+          "text": "The Aetherium Giant",
+          "href": "https://runescape.wiki/w/The_Aetherium_Giant"
+        },
+        {
+          "text": "war golem arm",
+          "href": "https://runescape.wiki/w/War_golem_arm"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "wingsuit v2",
+          "href": "https://runescape.wiki/w/Wingsuit_v2"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Golem_instruction_(damaged)"
+        },
+        {
+          "text": "Golem instruction (damaged)",
+          "href": "https://runescape.wiki/w/Golem_instruction_(damaged)"
+        }
+      ],
+      "col_1": "98",
+      "col_2": "Study the war golem arm in the middle of the south-western islands of Stormguard Citadel Dig Site. You'll need to be in flight, wearing the wingsuit v2 or higher to be able to reach this location.",
+      "col_3": "326",
+      "col_4": "23,809.3",
+      "col_5": "Golem instruction (damaged)"
+    },
+    {
+      "name": "Night and Day",
+      "wikiLinks": [
+        {
+          "text": "Night and Day",
+          "href": "https://runescape.wiki/w/Night_and_Day"
+        },
+        {
+          "text": "keshik coat of arms",
+          "href": "https://runescape.wiki/w/Keshik_coat_of_arms"
+        },
+        {
+          "text": "Nightguard tower",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_-_Nightguard_tower_excavation_site"
+        },
+        {
+          "text": "wingsuit v2",
+          "href": "https://runescape.wiki/w/Wingsuit_v2"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Stormguard_gerege_(damaged)"
+        },
+        {
+          "text": "Stormguard gerege (damaged)",
+          "href": "https://runescape.wiki/w/Stormguard_gerege_(damaged)"
+        }
+      ],
+      "col_1": "95",
+      "col_2": "Study the keshik coat of arms at the Nightguard tower. You'll need the wingsuit v2 or higher to be able to reach this location.",
+      "col_3": "313",
+      "col_4": "20,238",
+      "col_5": "Stormguard gerege (damaged)"
+    },
+    {
+      "name": "Howling Man",
+      "wikiLinks": [
+        {
+          "text": "Howling Man",
+          "href": "https://runescape.wiki/w/Howling_Man"
+        },
+        {
+          "text": "theoretical blueprints",
+          "href": "https://runescape.wiki/w/Theoretical_blueprints"
+        },
+        {
+          "text": "Howl's workshop",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_-_Howl%27s_workshop_excavation_site"
+        },
+        {
+          "text": "Stormguard gerege",
+          "href": "https://runescape.wiki/w/Stormguard_gerege"
+        },
+        {
+          "text": "tool belt",
+          "href": "https://runescape.wiki/w/Tool_belt"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Chuluu_stone_(damaged)"
+        },
+        {
+          "text": "Chuluu stone (damaged)",
+          "href": "https://runescape.wiki/w/Chuluu_stone_(damaged)"
+        }
+      ],
+      "col_1": "118",
+      "col_2": "Study the theoretical blueprints in Howl's workshop. Players need a Stormguard gerege in the tool belt to access the area.",
+      "col_3": "393",
+      "col_4": "61,904.6",
+      "col_5": "Chuluu stone (damaged)"
+    },
+    {
+      "name": "Back to the Drawing Board",
+      "wikiLinks": [
+        {
+          "text": "Back to the Drawing Board",
+          "href": "https://runescape.wiki/w/Back_to_the_Drawing_Board"
+        },
+        {
+          "text": "drafting bench",
+          "href": "https://runescape.wiki/w/Drafting_bench"
+        },
+        {
+          "text": "Howl's workshop",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_-_Howl%27s_workshop_excavation_site"
+        },
+        {
+          "text": "Stormguard gerege",
+          "href": "https://runescape.wiki/w/Stormguard_gerege"
+        },
+        {
+          "text": "tool belt",
+          "href": "https://runescape.wiki/w/Tool_belt"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Prototype_godsword_(damaged)"
+        },
+        {
+          "text": "Prototype godsword (damaged)",
+          "href": "https://runescape.wiki/w/Prototype_godsword_(damaged)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Torn_blueprint_fragments_(Howl%27s_workshop)"
+        },
+        {
+          "text": "Torn blueprint fragments (Howl's workshop)",
+          "href": "https://runescape.wiki/w/Torn_blueprint_fragments_(Howl%27s_workshop)"
+        }
+      ],
+      "col_1": "95",
+      "col_2": "Study and search the drafting bench inside Howl's workshop. Players need a Stormguard gerege in the tool belt to access this area.",
+      "col_3": "313",
+      "col_4": "20,238",
+      "col_5": "Prototype godsword (damaged)\nTorn blueprint fragments (Howl's workshop)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/6)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Melting Point",
+      "wikiLinks": [
+        {
+          "text": "Melting Point",
+          "href": "https://runescape.wiki/w/Melting_Point"
+        },
+        {
+          "text": "grille",
+          "href": "https://runescape.wiki/w/Grille"
+        },
+        {
+          "text": "Crucible arena",
+          "href": "https://runescape.wiki/w/Warforge_-_Crucible_arena_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Thorobshuun_battle_standard_(damaged)"
+        },
+        {
+          "text": "Thorobshuun battle standard (damaged)",
+          "href": "https://runescape.wiki/w/Thorobshuun_battle_standard_(damaged)"
+        }
+      ],
+      "col_1": "83",
+      "col_2": "Study the grille in the middle of the Crucible arena.",
+      "col_3": "273",
+      "col_4": "11,666.6",
+      "col_5": "Thorobshuun battle standard (damaged)"
+    },
+    {
+      "name": "Too Many Bones",
+      "wikiLinks": [
+        {
+          "text": "Too Many Bones",
+          "href": "https://runescape.wiki/w/Too_Many_Bones"
+        },
+        {
+          "text": "animal skull",
+          "href": "https://runescape.wiki/w/Animal_skull"
+        },
+        {
+          "text": "animal pens",
+          "href": "https://runescape.wiki/w/Warforge_-_Animal_pens_excavation_site"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "Thalmund's Forge",
+          "href": "https://runescape.wiki/w/Thalmund%27s_Forge"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dorgeshuun_spear_(damaged)"
+        },
+        {
+          "text": "Dorgeshuun spear (damaged)",
+          "href": "https://runescape.wiki/w/Dorgeshuun_spear_(damaged)"
+        }
+      ],
+      "col_1": "100",
+      "col_2": "Study the animal skull in the animal pens of the Warforge Dig Site, south-west of the southern entrance to Thalmund's Forge.",
+      "col_3": "333",
+      "col_4": "26,666.6",
+      "col_5": "Dorgeshuun spear (damaged)"
+    },
+    {
+      "name": "Northside",
+      "wikiLinks": [
+        {
+          "text": "Northside",
+          "href": "https://runescape.wiki/w/Northside"
+        },
+        {
+          "text": "Big High War God shrine",
+          "href": "https://runescape.wiki/w/Big_High_War_God_shrine_(research_scenery)"
+        },
+        {
+          "text": "north goblin tunnels",
+          "href": "https://runescape.wiki/w/Warforge_-_North_goblin_tunnels"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Garagorshuun_anchor_(damaged)"
+        },
+        {
+          "text": "Garagorshuun anchor (damaged)",
+          "href": "https://runescape.wiki/w/Garagorshuun_anchor_(damaged)"
+        }
+      ],
+      "col_1": "97",
+      "col_2": "Study the Big High War God shrine in the north goblin tunnels of the Warforge Dig Site.",
+      "col_3": "320",
+      "col_4": "22,618.6",
+      "col_5": "Garagorshuun anchor (damaged)"
+    },
+    {
+      "name": "Dwarven Forge",
+      "wikiLinks": [
+        {
+          "text": "Dwarven Forge",
+          "href": "https://runescape.wiki/w/Dwarven_Forge"
+        },
+        {
+          "text": "hallmark",
+          "href": "https://runescape.wiki/w/Hallmark"
+        },
+        {
+          "text": "Thalmund's Forge",
+          "href": "https://runescape.wiki/w/Thalmund%27s_Forge"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Ourg_megahitter_(damaged)"
+        },
+        {
+          "text": "Ourg megahitter (damaged)",
+          "href": "https://runescape.wiki/w/Ourg_megahitter_(damaged)"
+        }
+      ],
+      "col_1": "97",
+      "col_2": "Study the hallmark on the western wall in the small room inside Thalmund's Forge.",
+      "col_3": "320",
+      "col_4": "22,618.6",
+      "col_5": "Ourg megahitter (damaged)"
+    },
+    {
+      "name": "Big High War Chest",
+      "wikiLinks": [
+        {
+          "text": "Big High War Chest",
+          "href": "https://runescape.wiki/w/Big_High_War_Chest"
+        },
+        {
+          "text": "weapons cache",
+          "href": "https://runescape.wiki/w/Weapons_cache"
+        },
+        {
+          "text": "Bandos's sanctum",
+          "href": "https://runescape.wiki/w/Warforge_-_Bandos%27s_sanctum_excavation_site"
+        },
+        {
+          "text": "You Have Chosen...",
+          "href": "https://runescape.wiki/w/You_Have_Chosen..."
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/%27Da_Boss_Man%27_sculpture_(damaged)"
+        },
+        {
+          "text": "'Da Boss Man' sculpture (damaged)",
+          "href": "https://runescape.wiki/w/%27Da_Boss_Man%27_sculpture_(damaged)"
+        }
+      ],
+      "col_1": "119",
+      "col_2": "Study the weapons cache in the area behind Bandos's sanctum, which is reachable after solving You Have Chosen... mystery.",
+      "col_3": "393",
+      "col_4": "64,285.3",
+      "col_5": "'Da Boss Man' sculpture (damaged)"
+    },
+    {
+      "name": "Power Behind the Throne",
+      "wikiLinks": [
+        {
+          "text": "Power Behind the Throne",
+          "href": "https://runescape.wiki/w/Power_Behind_the_Throne"
+        },
+        {
+          "text": "Bandos's throne",
+          "href": "https://runescape.wiki/w/Bandos%27s_throne"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/%27Forged_in_War%27_sculpture_(damaged)"
+        },
+        {
+          "text": "'Forged in War' sculpture (damaged)",
+          "href": "https://runescape.wiki/w/%27Forged_in_War%27_sculpture_(damaged)"
+        }
+      ],
+      "col_1": "100",
+      "col_2": "Study Bandos's throne once you descend the lift at the Warforge Dig Site.",
+      "col_3": "333",
+      "col_4": "26,666.6",
+      "col_5": "'Forged in War' sculpture (damaged)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/6)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Let Sleeping Kin Lie",
+      "wikiLinks": [
+        {
+          "text": "Let Sleeping Kin Lie",
+          "href": "https://runescape.wiki/w/Let_Sleeping_Kin_Lie"
+        },
+        {
+          "text": "hibernation pods",
+          "href": "https://runescape.wiki/w/Hibernation_pod#Nodon_Hibernatorium_(occupied,_before_studying)"
+        },
+        {
+          "text": "Nodon Hibernatorium",
+          "href": "https://runescape.wiki/w/Nodon_Hibernatorium"
+        },
+        {
+          "text": "Desperate Measures",
+          "href": "https://runescape.wiki/w/Desperate_Measures"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Orthenglass"
+        },
+        {
+          "text": "Orthenglass",
+          "href": "https://runescape.wiki/w/Orthenglass"
+        }
+      ],
+      "col_1": "70",
+      "col_2": "Study the hibernation pods in the Nodon Hibernatorium. The hibernatorium can be accessed during and after Desperate Measures.",
+      "col_3": "268",
+      "col_4": "7,666.6",
+      "col_5": "Orthenglass"
+    },
+    {
+      "name": "Breath of Fire",
+      "wikiLinks": [
+        {
+          "text": "Breath of Fire",
+          "href": "https://runescape.wiki/w/Breath_of_Fire"
+        },
+        {
+          "text": "funeral pyre",
+          "href": "https://runescape.wiki/w/Funeral_pyre_(Orthen_Dig_Site)"
+        },
+        {
+          "text": "Crypt of Varanus",
+          "href": "https://runescape.wiki/w/Crypt_of_Varanus"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Death_mask_(damaged)"
+        },
+        {
+          "text": "Death mask (damaged)",
+          "href": "https://runescape.wiki/w/Death_mask_(damaged)"
+        }
+      ],
+      "col_1": "99",
+      "col_2": "Study the funeral pyre in the centre of the main area of the Crypt of Varanus.",
+      "col_3": "375",
+      "col_4": "28,750",
+      "col_5": "Death mask (damaged)"
+    },
+    {
+      "name": "Necropsy",
+      "wikiLinks": [
+        {
+          "text": "Necropsy",
+          "href": "https://runescape.wiki/w/Necropsy"
+        },
+        {
+          "text": "autopsy table",
+          "href": "https://runescape.wiki/w/Autopsy_table_(scenery)"
+        },
+        {
+          "text": "observation outpost",
+          "href": "https://runescape.wiki/w/Observation_outpost"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dragon_scalpel_(damaged)"
+        },
+        {
+          "text": "Dragon scalpel (damaged)",
+          "href": "https://runescape.wiki/w/Dragon_scalpel_(damaged)"
+        }
+      ],
+      "col_1": "101",
+      "col_2": "Study the autopsy table inside the ruins of the observation outpost.",
+      "col_3": "383",
+      "col_4": "32,583.3",
+      "col_5": "Dragon scalpel (damaged)"
+    },
+    {
+      "name": "Mind Your Head",
+      "wikiLinks": [
+        {
+          "text": "Mind Your Head",
+          "href": "https://runescape.wiki/w/Mind_Your_Head_(research)"
+        },
+        {
+          "text": "Moksha device",
+          "href": "https://runescape.wiki/w/Moksha_device_(device)"
+        },
+        {
+          "text": "Moksha ritual site",
+          "href": "https://runescape.wiki/w/Moksha_ritual_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Master_control_(damaged)"
+        },
+        {
+          "text": "Master control (damaged)",
+          "href": "https://runescape.wiki/w/Master_control_(damaged)"
+        }
+      ],
+      "col_1": "108",
+      "col_2": "Study the Moksha device in the Moksha ritual site.",
+      "col_3": "414",
+      "col_4": "46,547.4",
+      "col_5": "Master control (damaged)"
+    },
+    {
+      "name": "Xolo Dorado",
+      "wikiLinks": [
+        {
+          "text": "Xolo Dorado",
+          "href": "https://runescape.wiki/w/Xolo_Dorado"
+        },
+        {
+          "text": "xolo temple pyramid",
+          "href": "https://runescape.wiki/w/Xolo_temple_pyramid"
+        },
+        {
+          "text": "Xolo City",
+          "href": "https://runescape.wiki/w/Xolo_City"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/%27Raksha%27_idol_(damaged)"
+        },
+        {
+          "text": "'Raksha' idol (damaged)",
+          "href": "https://runescape.wiki/w/%27Raksha%27_idol_(damaged)"
+        }
+      ],
+      "col_1": "120",
+      "col_2": "Study the xolo temple pyramid in Xolo City.",
+      "col_3": "460",
+      "col_4": "76,666.6",
+      "col_5": "'Raksha' idol (damaged)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/5)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Incomplete Portal Network I",
+      "wikiLinks": [
+        {
+          "text": "Incomplete Portal Network I",
+          "href": "https://runescape.wiki/w/Incomplete_Portal_Network_I"
+        },
+        {
+          "text": "Orthen teleportation device",
+          "href": "https://runescape.wiki/w/Orthen_teleportation_device"
+        },
+        {
+          "text": "Crypt of Varanus",
+          "href": "https://runescape.wiki/w/Crypt_of_Varanus"
+        }
+      ],
+      "col_1": "70",
+      "col_2": "Activate the Orthen teleportation device outside the Crypt of Varanus.",
+      "col_3": "58",
+      "col_4": "1,666.6",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Incomplete Portal Network II",
+      "wikiLinks": [
+        {
+          "text": "Incomplete Portal Network II",
+          "href": "https://runescape.wiki/w/Incomplete_Portal_Network_II"
+        },
+        {
+          "text": "Orthen teleportation device",
+          "href": "https://runescape.wiki/w/Orthen_teleportation_device"
+        },
+        {
+          "text": "observation outpost",
+          "href": "https://runescape.wiki/w/Observation_outpost"
+        },
+        {
+          "text": "Incomplete Portal Network I",
+          "href": "https://runescape.wiki/w/Incomplete_Portal_Network_I"
+        }
+      ],
+      "col_1": "70",
+      "col_2": "Activate the Orthen teleportation device outside the observation outpost after completing Incomplete Portal Network I.",
+      "col_3": "116",
+      "col_4": "3,333.3",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Incomplete Portal Network III",
+      "wikiLinks": [
+        {
+          "text": "Incomplete Portal Network III",
+          "href": "https://runescape.wiki/w/Incomplete_Portal_Network_III"
+        },
+        {
+          "text": "Orthen teleportation device",
+          "href": "https://runescape.wiki/w/Orthen_teleportation_device"
+        },
+        {
+          "text": "Moksha ritual site",
+          "href": "https://runescape.wiki/w/Moksha_ritual_site"
+        },
+        {
+          "text": "Incomplete Portal Network II",
+          "href": "https://runescape.wiki/w/Incomplete_Portal_Network_II"
+        }
+      ],
+      "col_1": "70",
+      "col_2": "Activate the Orthen teleportation device within the Moksha ritual site after completing Incomplete Portal Network II.",
+      "col_3": "175",
+      "col_4": "5,000",
+      "col_5": "N/A"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/3)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Imposing Stature",
+      "wikiLinks": [
+        {
+          "text": "Imposing Stature",
+          "href": "https://runescape.wiki/w/Imposing_Stature"
+        },
+        {
+          "text": "statue of a dragonkin",
+          "href": "https://runescape.wiki/w/Statue_of_a_dragonkin"
+        },
+        {
+          "text": "Daemonheim",
+          "href": "https://runescape.wiki/w/Daemonheim"
+        }
+      ],
+      "col_1": "75",
+      "col_2": "Study the statue of a dragonkin on the 1st floor[UK]2nd floor[US] of Daemonheim.",
+      "col_3": "283",
+      "col_4": "9,583.3",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Rest at the New Frontier",
+      "wikiLinks": [
+        {
+          "text": "Rest at the New Frontier",
+          "href": "https://runescape.wiki/w/Rest_at_the_New_Frontier"
+        },
+        {
+          "text": "remnants of a meeting space",
+          "href": "https://runescape.wiki/w/Remnants_of_a_meeting_space"
+        },
+        {
+          "text": "Daemonheim",
+          "href": "https://runescape.wiki/w/Daemonheim"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Snuff_box_(damaged)"
+        },
+        {
+          "text": "Snuff box (damaged)",
+          "href": "https://runescape.wiki/w/Snuff_box_(damaged)"
+        }
+      ],
+      "col_1": "79",
+      "col_2": "Study the remnants of a meeting space in the northernmost room of the ground floor[UK]1st floor[US] of Daemonheim.",
+      "col_3": "298",
+      "col_4": "11,116.6",
+      "col_5": "Snuff box (damaged)"
+    },
+    {
+      "name": "On the Threshold of the Mind",
+      "wikiLinks": [
+        {
+          "text": "On the Threshold of the Mind",
+          "href": "https://runescape.wiki/w/On_the_Threshold_of_the_Mind"
+        },
+        {
+          "text": "imposing door",
+          "href": "https://runescape.wiki/w/Imposing_door"
+        },
+        {
+          "text": "Daemonheim",
+          "href": "https://runescape.wiki/w/Daemonheim"
+        }
+      ],
+      "col_1": "103",
+      "col_2": "Study the imposing door in the northeastern room of the ground floor[UK]1st floor[US] of Daemonheim.",
+      "col_3": "255",
+      "col_4": "23,750",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Making Sense of Sense",
+      "wikiLinks": [
+        {
+          "text": "Making Sense of Sense",
+          "href": "https://runescape.wiki/w/Making_Sense_of_Sense"
+        },
+        {
+          "text": "research tables",
+          "href": "https://runescape.wiki/w/Research_tables"
+        },
+        {
+          "text": "Daemonheim - Depths excavation site",
+          "href": "https://runescape.wiki/w/Daemonheim_-_Depths_excavation_site"
+        }
+      ],
+      "col_1": "109",
+      "col_2": "Study the research tables located in the north-eastern corner of the Daemonheim - Depths excavation site.",
+      "col_3": "414",
+      "col_4": "48,737.7",
+      "col_5": "N/A"
+    },
+    {
+      "name": "Thought Process",
+      "wikiLinks": [
+        {
+          "text": "Thought Process",
+          "href": "https://runescape.wiki/w/Thought_Process"
+        },
+        {
+          "text": "mysterious engine",
+          "href": "https://runescape.wiki/w/Mysterious_engine"
+        },
+        {
+          "text": "Daemonheim - Depths excavation site",
+          "href": "https://runescape.wiki/w/Daemonheim_-_Depths_excavation_site"
+        }
+      ],
+      "col_1": "113",
+      "col_2": "Study the mysterious engine in the Daemonheim - Depths excavation site.",
+      "col_3": "280",
+      "col_4": "37,500",
+      "col_5": "N/A"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/5)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Lions and Unicorns and Centaurs, Oh My!",
+      "wikiLinks": [
+        {
+          "text": "Lions and Unicorns and Centaurs, Oh My!",
+          "href": "https://runescape.wiki/w/Lions_and_Unicorns_and_Centaurs,_Oh_My!"
+        },
+        {
+          "text": "mound of earth",
+          "href": "https://runescape.wiki/w/Mound_of_earth"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Hallowed_lantern_(damaged)"
+        },
+        {
+          "text": "Hallowed lantern (damaged)",
+          "href": "https://runescape.wiki/w/Hallowed_lantern_(damaged)"
+        }
+      ],
+      "col_1": "42",
+      "col_2": "Study the mound of earth north-east of the scaffolding used to access the Everlight Dig Site.",
+      "col_3": "140",
+      "col_4": "1,533.3",
+      "col_5": "Hallowed lantern (damaged)"
+    },
+    {
+      "name": "Ode to a Midsummer Morning",
+      "wikiLinks": [
+        {
+          "text": "Ode to a Midsummer Morning",
+          "href": "https://runescape.wiki/w/Ode_to_a_Midsummer_Morning"
+        },
+        {
+          "text": "amphitheatre stage",
+          "href": "https://runescape.wiki/w/Amphitheatre_stage"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Everlight_harp_(damaged)"
+        },
+        {
+          "text": "Everlight harp (damaged)",
+          "href": "https://runescape.wiki/w/Everlight_harp_(damaged)"
+        }
+      ],
+      "col_1": "51",
+      "col_2": "Study the amphitheatre stage.",
+      "col_3": "166",
+      "col_4": "2,433.3",
+      "col_5": "Everlight harp (damaged)"
+    },
+    {
+      "name": "Stadio Ga Ga",
+      "wikiLinks": [
+        {
+          "text": "Stadio Ga Ga",
+          "href": "https://runescape.wiki/w/Stadio_Ga_Ga"
+        },
+        {
+          "text": "stadium column",
+          "href": "https://runescape.wiki/w/Stadium_column"
+        },
+        {
+          "text": "Dominion Games stadium",
+          "href": "https://runescape.wiki/w/Everlight_-_Dominion_Games_stadium_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dominion_torch_(damaged)"
+        },
+        {
+          "text": "Dominion torch (damaged)",
+          "href": "https://runescape.wiki/w/Dominion_torch_(damaged)"
+        }
+      ],
+      "col_1": "69",
+      "col_2": "Study the fallen stadium column at the Dominion Games stadium.",
+      "col_3": "226",
+      "col_4": "6,333.3",
+      "col_5": "Dominion torch (damaged)"
+    },
+    {
+      "name": "Home, Sweet Home",
+      "wikiLinks": [
+        {
+          "text": "Home, Sweet Home",
+          "href": "https://runescape.wiki/w/Home,_Sweet_Home"
+        },
+        {
+          "text": "partial statue",
+          "href": "https://runescape.wiki/w/Partial_statue"
+        },
+        {
+          "text": "statue of Hebe",
+          "href": "https://runescape.wiki/w/Statue_of_Hebe"
+        },
+        {
+          "text": "oikos studio debris",
+          "href": "https://runescape.wiki/w/Oikos_studio_debris"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Kantharos_cup_(damaged)"
+        },
+        {
+          "text": "Kantharos cup (damaged)",
+          "href": "https://runescape.wiki/w/Kantharos_cup_(damaged)"
+        }
+      ],
+      "col_1": "72",
+      "col_2": "Study the partial statue of a woman just west of the statue of Hebe and east of the oikos studio debris.",
+      "col_3": "240",
+      "col_4": "7,333.3",
+      "col_5": "Kantharos cup (damaged)"
+    },
+    {
+      "name": "Ground of the Polis",
+      "wikiLinks": [
+        {
+          "text": "Ground of the Polis",
+          "href": "https://runescape.wiki/w/Ground_of_the_Polis"
+        },
+        {
+          "text": "stone tablet",
+          "href": "https://runescape.wiki/w/Stone_tablet_(Archaeology)"
+        },
+        {
+          "text": "Acropolis",
+          "href": "https://runescape.wiki/w/Everlight_-_Acropolis_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Rod_of_Asclepius_(damaged)"
+        },
+        {
+          "text": "Rod of Asclepius (damaged)",
+          "href": "https://runescape.wiki/w/Rod_of_Asclepius_(damaged)"
+        }
+      ],
+      "col_1": "92",
+      "col_2": "Study the stone tablet on the northern platform of the Acropolis.",
+      "col_3": "306",
+      "col_4": "16,666.6",
+      "col_5": "Rod of Asclepius (damaged)"
+    },
+    {
+      "name": "Battle of Optimatoi",
+      "wikiLinks": [
+        {
+          "text": "Battle of Optimatoi",
+          "href": "https://runescape.wiki/w/Battle_of_Optimatoi"
+        },
+        {
+          "text": "icyene skeletons",
+          "href": "https://runescape.wiki/w/Icyene_skeletons"
+        },
+        {
+          "text": "underwater cave",
+          "href": "https://runescape.wiki/w/Everlight_-_Underwater_cave_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/%27Hallowed_Be_the_Everlight%27_painting_(damaged)"
+        },
+        {
+          "text": "'Hallowed Be the Everlight' painting (damaged)",
+          "href": "https://runescape.wiki/w/%27Hallowed_Be_the_Everlight%27_painting_(damaged)"
+        }
+      ],
+      "col_1": "105",
+      "col_2": "Study the icyene skeletons in the underwater cave.",
+      "col_3": "346",
+      "col_4": "35,000",
+      "col_5": "'Hallowed Be the Everlight' painting (damaged)"
+    },
+    {
+      "name": "Like Clockwork",
+      "wikiLinks": [
+        {
+          "text": "Like Clockwork",
+          "href": "https://runescape.wiki/w/Like_Clockwork"
+        },
+        {
+          "text": "lighthouse mechanism",
+          "href": "https://runescape.wiki/w/Lighthouse_mechanism"
+        },
+        {
+          "text": "underwater cave",
+          "href": "https://runescape.wiki/w/Everlight_-_Underwater_cave_excavation_site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dominarian_device_(damaged)"
+        },
+        {
+          "text": "Dominarian device (damaged)",
+          "href": "https://runescape.wiki/w/Dominarian_device_(damaged)"
+        }
+      ],
+      "col_1": "84",
+      "col_2": "Study the lighthouse mechanism in the underwater cave. Once inside, head into the room all the way at the northern end, then dive underwater.",
+      "col_3": "280",
+      "col_4": "12,222",
+      "col_5": "Dominarian device (damaged)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/7)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Starry Eyed",
+      "wikiLinks": [
+        {
+          "text": "Starry Eyed",
+          "href": "https://runescape.wiki/w/Starry_Eyed"
+        },
+        {
+          "text": "Star Lodge sign",
+          "href": "https://runescape.wiki/w/Star_Lodge_sign"
+        },
+        {
+          "text": "Star Lodge cellar",
+          "href": "https://runescape.wiki/w/Star_Lodge_cellar"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Opulent_wine_goblet_(damaged)"
+        },
+        {
+          "text": "Opulent wine goblet (damaged)",
+          "href": "https://runescape.wiki/w/Opulent_wine_goblet_(damaged)"
+        }
+      ],
+      "col_1": "40",
+      "col_2": "Study the Star Lodge sign in the northwest corner of the Star Lodge cellar (first level).",
+      "col_3": "133",
+      "col_4": "1,333.3",
+      "col_5": "Opulent wine goblet (damaged)"
+    },
+    {
+      "name": "The Dark Underbelly",
+      "wikiLinks": [
+        {
+          "text": "The Dark Underbelly",
+          "href": "https://runescape.wiki/w/The_Dark_Underbelly"
+        },
+        {
+          "text": "sacrificial altar",
+          "href": "https://runescape.wiki/w/Sacrificial_altar_(Infernal_Source_Dig_Site)"
+        },
+        {
+          "text": "Dungeon of Disorder",
+          "href": "https://runescape.wiki/w/Dungeon_of_Disorder"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Ritual_dagger_(damaged)"
+        },
+        {
+          "text": "Ritual dagger (damaged)",
+          "href": "https://runescape.wiki/w/Ritual_dagger_(damaged)"
+        }
+      ],
+      "col_1": "40",
+      "col_2": "Study the sacrificial altar in the Dungeon of Disorder.",
+      "col_3": "133",
+      "col_4": "1,333.3",
+      "col_5": "Ritual dagger (damaged)"
+    },
+    {
+      "name": "Abandon All Hope",
+      "wikiLinks": [
+        {
+          "text": "Abandon All Hope",
+          "href": "https://runescape.wiki/w/Abandon_All_Hope"
+        },
+        {
+          "text": "portal chamber",
+          "href": "https://runescape.wiki/w/Portal_chamber_(scenery)"
+        },
+        {
+          "text": "Vestibule of Futility",
+          "href": "https://runescape.wiki/w/Vestibule_of_Futility"
+        },
+        {
+          "text": "the Source",
+          "href": "https://runescape.wiki/w/The_Source"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Imp_mask_(damaged)"
+        },
+        {
+          "text": "Imp mask (damaged)",
+          "href": "https://runescape.wiki/w/Imp_mask_(damaged)"
+        }
+      ],
+      "col_1": "40",
+      "col_2": "Study the portal chamber in Vestibule of Futility of the Source.",
+      "col_3": "133",
+      "col_4": "1,333.3",
+      "col_5": "Imp mask (damaged)"
+    },
+    {
+      "name": "Deeper and Down",
+      "wikiLinks": [
+        {
+          "text": "Deeper and Down",
+          "href": "https://runescape.wiki/w/Deeper_and_Down"
+        },
+        {
+          "text": "hellhound marker",
+          "href": "https://runescape.wiki/w/Hellhound_marker"
+        },
+        {
+          "text": "byzroth remains",
+          "href": "https://runescape.wiki/w/Byzroth_remains"
+        },
+        {
+          "text": "the Harrowing",
+          "href": "https://runescape.wiki/w/The_Harrowing"
+        },
+        {
+          "text": "the Source",
+          "href": "https://runescape.wiki/w/The_Source"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Spiked_dog_collar_(damaged)"
+        },
+        {
+          "text": "Spiked dog collar (damaged)",
+          "href": "https://runescape.wiki/w/Spiked_dog_collar_(damaged)"
+        }
+      ],
+      "col_1": "68",
+      "col_2": "Study the hellhound marker on the southwest side near the byzroth remains in the Harrowing of the Source.",
+      "col_3": "226",
+      "col_4": "6,000",
+      "col_5": "Spiked dog collar (damaged)"
+    },
+    {
+      "name": "Who Dis?",
+      "wikiLinks": [
+        {
+          "text": "Who Dis?",
+          "href": "https://runescape.wiki/w/Who_Dis%3F"
+        },
+        {
+          "text": "trapped demon",
+          "href": "https://runescape.wiki/w/Trapped_demon"
+        },
+        {
+          "text": "Dagon Overlook",
+          "href": "https://runescape.wiki/w/Dagon_Overlook"
+        },
+        {
+          "text": "the Source",
+          "href": "https://runescape.wiki/w/The_Source"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Chaos_star_(damaged)"
+        },
+        {
+          "text": "Chaos star (damaged)",
+          "href": "https://runescape.wiki/w/Chaos_star_(damaged)"
+        }
+      ],
+      "col_1": "68",
+      "col_2": "Study the trapped demon by clicking the Dagon portal from Dagon Overlook to the hydra portal in the Source.",
+      "col_3": "226",
+      "col_4": "6,000",
+      "col_5": "Chaos star (damaged)"
+    },
+    {
+      "name": "Hell Mouths",
+      "wikiLinks": [
+        {
+          "text": "Hell Mouths",
+          "href": "https://runescape.wiki/w/Hell_Mouths"
+        },
+        {
+          "text": "hydra gate",
+          "href": "https://runescape.wiki/w/Hydra_gate"
+        },
+        {
+          "text": "Dagon the Gatekeeper",
+          "href": "https://runescape.wiki/w/Dagon_the_Gatekeeper"
+        },
+        {
+          "text": "the Source",
+          "href": "https://runescape.wiki/w/The_Source"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Hellfire_katar_(damaged)"
+        },
+        {
+          "text": "Hellfire katar (damaged)",
+          "href": "https://runescape.wiki/w/Hellfire_katar_(damaged)"
+        }
+      ],
+      "col_1": "98",
+      "col_2": "Study the hydra gate at the hydra portal, which is the gate where Dagon the Gatekeeper is standing in at the bottom of the Source.",
+      "col_3": "326",
+      "col_4": "23,809.3",
+      "col_5": "Hellfire katar (damaged)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (2/6)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Demon Door",
+      "wikiLinks": [
+        {
+          "text": "Demon Door",
+          "href": "https://runescape.wiki/w/Demon_Door"
+        },
+        {
+          "text": "outer wall debris",
+          "href": "https://runescape.wiki/w/Outer_wall_debris"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "imperial steel material cache",
+          "href": "https://runescape.wiki/w/Material_cache_(imperial_steel)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Legionary_gladius_(damaged)"
+        },
+        {
+          "text": "Legionary gladius (damaged)",
+          "href": "https://runescape.wiki/w/Legionary_gladius_(damaged)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Pylon_battery"
+        },
+        {
+          "text": "Pylon battery",
+          "href": "https://runescape.wiki/w/Pylon_battery"
+        }
+      ],
+      "col_1": "40",
+      "col_2": "Study the outer wall debris just south-east of the entrance inside the Kharid-et Dig Site, directly east of the imperial steel material cache.",
+      "col_3": "133",
+      "col_4": "1,333.3",
+      "col_5": "Legionary gladius (damaged)\nPylon battery"
+    },
+    {
+      "name": "Proving Grounds",
+      "wikiLinks": [
+        {
+          "text": "Proving Grounds",
+          "href": "https://runescape.wiki/w/Proving_Grounds"
+        },
+        {
+          "text": "barracks rubble",
+          "href": "https://runescape.wiki/w/Barracks_rubble"
+        },
+        {
+          "text": "barracks",
+          "href": "https://runescape.wiki/w/Kharid-et_-_Barracks_excavation_site"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Zarosian_training_dummy_(damaged)"
+        },
+        {
+          "text": "Zarosian training dummy (damaged)",
+          "href": "https://runescape.wiki/w/Zarosian_training_dummy_(damaged)"
+        }
+      ],
+      "col_1": "40",
+      "col_2": "Study the barracks rubble that form the doorway of the north-west building in the barracks at the Kharid-et Dig Site.",
+      "col_3": "133",
+      "col_4": "1,333.3",
+      "col_5": "Zarosian training dummy (damaged)"
+    },
+    {
+      "name": "Cell, a Door",
+      "wikiLinks": [
+        {
+          "text": "Cell, a Door",
+          "href": "https://runescape.wiki/w/Cell,_a_Door"
+        },
+        {
+          "text": "cell doors",
+          "href": "https://runescape.wiki/w/Cell_door"
+        },
+        {
+          "text": "prison block",
+          "href": "https://runescape.wiki/w/Prison_block"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Legatus_pendant_(damaged)"
+        },
+        {
+          "text": "Legatus pendant (damaged)",
+          "href": "https://runescape.wiki/w/Legatus_pendant_(damaged)"
+        }
+      ],
+      "col_1": "47",
+      "col_2": "Study one of the cell doors in the prison block at the Kharid-et Dig Site.",
+      "col_3": "153",
+      "col_4": "2,033.3",
+      "col_5": "Legatus pendant (damaged)"
+    },
+    {
+      "name": "Requiescat in Pace",
+      "wikiLinks": [
+        {
+          "text": "Requiescat in Pace",
+          "href": "https://runescape.wiki/w/Requiescat_in_Pace"
+        },
+        {
+          "text": "Orcus stained glass window",
+          "href": "https://runescape.wiki/w/Orcus_stained_glass_window"
+        },
+        {
+          "text": "chapel",
+          "href": "https://runescape.wiki/w/Kharid-et_-_Chapel_excavation_site"
+        },
+        {
+          "text": "pontifex barrier",
+          "href": "https://runescape.wiki/w/Pontifex_barrier"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Necromantic_focus_(damaged)"
+        },
+        {
+          "text": "Necromantic focus (damaged)",
+          "href": "https://runescape.wiki/w/Necromantic_focus_(damaged)"
+        }
+      ],
+      "col_1": "86",
+      "col_2": "Study the Orcus stained glass window in the chapel after passing the pontifex barrier at the Kharid-et Dig Site.",
+      "col_3": "286",
+      "col_4": "13,333.3",
+      "col_5": "Necromantic focus (damaged)"
+    },
+    {
+      "name": "Where There's Smoke...",
+      "wikiLinks": [
+        {
+          "text": "Where There's Smoke...",
+          "href": "https://runescape.wiki/w/Where_There%27s_Smoke..."
+        },
+        {
+          "text": "oven",
+          "href": "https://runescape.wiki/w/Oven"
+        },
+        {
+          "text": "Culinarum excavation site",
+          "href": "https://runescape.wiki/w/Kharid-et_-_Culinarum_excavation_site"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/%27Smoke_Cloud%27_spell_scroll_(damaged)"
+        },
+        {
+          "text": "'Smoke Cloud' spell scroll (damaged)",
+          "href": "https://runescape.wiki/w/%27Smoke_Cloud%27_spell_scroll_(damaged)"
+        }
+      ],
+      "col_1": "100",
+      "col_2": "Study the oven in the Culinarum excavation site at the Kharid-et Dig Site.",
+      "col_3": "333",
+      "col_4": "26,666.6",
+      "col_5": "'Smoke Cloud' spell scroll (damaged)"
+    },
+    {
+      "name": "Shadow Play",
+      "wikiLinks": [
+        {
+          "text": "Shadow Play",
+          "href": "https://runescape.wiki/w/Shadow_Play"
+        },
+        {
+          "text": "war table",
+          "href": "https://runescape.wiki/w/War_table"
+        },
+        {
+          "text": "praetorium",
+          "href": "https://runescape.wiki/w/Kharid-et_-_Praetorium_excavation_site"
+        },
+        {
+          "text": "praetorium war table",
+          "href": "https://runescape.wiki/w/Praetorium_war_table"
+        },
+        {
+          "text": "pylons",
+          "href": "https://runescape.wiki/w/Pylon"
+        },
+        {
+          "text": "shadow anchors",
+          "href": "https://runescape.wiki/w/Shadow_anchor"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/%27Animate_Dead%27_spell_scroll_(damaged)"
+        },
+        {
+          "text": "'Animate Dead' spell scroll (damaged)",
+          "href": "https://runescape.wiki/w/%27Animate_Dead%27_spell_scroll_(damaged)"
+        }
+      ],
+      "col_1": "107",
+      "col_2": "Study the war table inside the praetorium. The praetorium is accessible by entering the praetorium war table, either when the pylons are 100% charged or after powering all eight shadow anchors.",
+      "col_3": "353",
+      "col_4": "38,571.3",
+      "col_5": "'Animate Dead' spell scroll (damaged)"
+    },
+    {
+      "name": "Lockdown",
+      "wikiLinks": [
+        {
+          "text": "Lockdown",
+          "href": "https://runescape.wiki/w/Lockdown"
+        },
+        {
+          "text": "central vault",
+          "href": "https://runescape.wiki/w/Central_vault"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "The Vault of Shadows",
+          "href": "https://runescape.wiki/w/The_Vault_of_Shadows_(Archaeology_achievement)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Pontifex_signet_ring_(damaged)"
+        },
+        {
+          "text": "Pontifex signet ring (damaged)",
+          "href": "https://runescape.wiki/w/Pontifex_signet_ring_(damaged)"
+        }
+      ],
+      "col_1": "58",
+      "col_2": "Study the central vault at the Kharid-et Dig Site, found during the first step of The Vault of Shadows mystery.",
+      "col_3": "193",
+      "col_4": "3,133.3",
+      "col_5": "Pontifex signet ring (damaged)"
+    },
+    {
+      "name": "Nom-Nom-Nom-Nom",
+      "wikiLinks": [
+        {
+          "text": "Nom-Nom-Nom-Nom",
+          "href": "https://runescape.wiki/w/Nom-Nom-Nom-Nom"
+        },
+        {
+          "text": "Tomes of the Warlock",
+          "href": "https://runescape.wiki/w/Tomes_of_the_Warlock"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Necromantic_focus_(damaged)"
+        },
+        {
+          "text": "Necromantic focus (damaged)",
+          "href": "https://runescape.wiki/w/Necromantic_focus_(damaged)"
+        }
+      ],
+      "col_1": "86",
+      "col_2": "Partially complete Tomes of the Warlock quest",
+      "col_3": "286",
+      "col_4": "13,333.3",
+      "col_5": "Necromantic focus (damaged)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/8)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "The Hidden Chamber",
+      "wikiLinks": [
+        {
+          "text": "The Hidden Chamber",
+          "href": "https://runescape.wiki/w/The_Hidden_Chamber"
+        },
+        {
+          "text": "cathedral bookcase",
+          "href": "https://runescape.wiki/w/Cathedral_bookcase"
+        },
+        {
+          "text": "cathedral",
+          "href": "https://runescape.wiki/w/Cathedral_(Senntisten)"
+        },
+        {
+          "text": "Senntisten",
+          "href": "https://runescape.wiki/w/Senntisten"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_shadow_(damaged)"
+        },
+        {
+          "text": "Funerary urn of shadow (damaged)",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_shadow_(damaged)"
+        }
+      ],
+      "col_1": "60",
+      "col_2": "Study the cathedral bookcase found in the northwestern corner of the cathedral in Senntisten.",
+      "col_3": "200",
+      "col_4": "3,333.3",
+      "col_5": "Funerary urn of shadow (damaged)"
+    },
+    {
+      "name": "Prime Real Estate",
+      "wikiLinks": [
+        {
+          "text": "Prime Real Estate",
+          "href": "https://runescape.wiki/w/Prime_Real_Estate"
+        },
+        {
+          "text": "market stall",
+          "href": "https://runescape.wiki/w/Market_stall_(Senntisten_Dig_Site)"
+        },
+        {
+          "text": "colosseum gateway",
+          "href": "https://runescape.wiki/w/Colosseum_gateway"
+        },
+        {
+          "text": "Senntisten",
+          "href": "https://runescape.wiki/w/Senntisten"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_ice_(damaged)"
+        },
+        {
+          "text": "Funerary urn of ice (damaged)",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_ice_(damaged)"
+        }
+      ],
+      "col_1": "63",
+      "col_2": "Study the market stall outside of the colosseum gateway in Senntisten.",
+      "col_3": "206",
+      "col_4": "4,333.3",
+      "col_5": "Funerary urn of ice (damaged)"
+    },
+    {
+      "name": "Complete the Pattern, Solve the Puzzle",
+      "wikiLinks": [
+        {
+          "text": "Complete the Pattern, Solve the Puzzle",
+          "href": "https://runescape.wiki/w/Complete_the_Pattern,_Solve_the_Puzzle"
+        },
+        {
+          "text": "table",
+          "href": "https://runescape.wiki/w/Table_(Senntisten_Dig_Site)"
+        },
+        {
+          "text": "Nodon Front",
+          "href": "https://runescape.wiki/w/Nodon_Front"
+        },
+        {
+          "text": "cathedral",
+          "href": "https://runescape.wiki/w/Cathedral_(Senntisten)"
+        },
+        {
+          "text": "Naressa",
+          "href": "https://runescape.wiki/w/Naressa"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/The_message_in_the_box"
+        },
+        {
+          "text": "The message in the box",
+          "href": "https://runescape.wiki/w/The_message_in_the_box"
+        }
+      ],
+      "col_1": "63",
+      "col_2": "Study the table in a small house at the far south end of the Nodon Front, south-west from the cathedral, and east of the house where Naressa is.",
+      "col_3": "206",
+      "col_4": "4,333.3",
+      "col_5": "The message in the box"
+    },
+    {
+      "name": "Are You Not Entertained?",
+      "wikiLinks": [
+        {
+          "text": "Are You Not Entertained?",
+          "href": "https://runescape.wiki/w/Are_You_Not_Entertained%3F_(research)"
+        },
+        {
+          "text": "Gladiator Bones",
+          "href": "https://runescape.wiki/w/Gladiator_Bones"
+        },
+        {
+          "text": "Colosseum",
+          "href": "https://runescape.wiki/w/Colosseum"
+        },
+        {
+          "text": "Senntisten",
+          "href": "https://runescape.wiki/w/Senntisten"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_blood_(damaged)"
+        },
+        {
+          "text": "Funerary urn of blood (damaged)",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_blood_(damaged)"
+        }
+      ],
+      "col_1": "66",
+      "col_2": "Study the Gladiator Bones found in the middle of the Colosseum in Senntisten.",
+      "col_3": "220",
+      "col_4": "5,333.3",
+      "col_5": "Funerary urn of blood (damaged)"
+    },
+    {
+      "name": "Crossing that Bridge",
+      "wikiLinks": [
+        {
+          "text": "Crossing that Bridge",
+          "href": "https://runescape.wiki/w/Crossing_that_Bridge"
+        },
+        {
+          "text": "scaffolding",
+          "href": "https://runescape.wiki/w/Scaffolding_(Senntisten_Dig_Site)"
+        },
+        {
+          "text": "intern Jimmy",
+          "href": "https://runescape.wiki/w/Intern_Jimmy#Senntisten"
+        },
+        {
+          "text": "Inquisitior's Memoirs (page 5)",
+          "href": "https://runescape.wiki/w/Inquisitior%27s_Memoirs_(page_5)"
+        },
+        {
+          "text": "Secrets of the Inquisition",
+          "href": "https://runescape.wiki/w/Secrets_of_the_Inquisition"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_smoke_(damaged)"
+        },
+        {
+          "text": "Funerary urn of smoke (damaged)",
+          "href": "https://runescape.wiki/w/Funerary_urn_of_smoke_(damaged)"
+        }
+      ],
+      "col_1": "67",
+      "col_2": "Study the scaffolding north of intern Jimmy, after obtaining the Inquisitior's Memoirs (page 5) during solving Secrets of the Inquisition mystery.",
+      "col_3": "220",
+      "col_4": "5,666.6",
+      "col_5": "Funerary urn of smoke (damaged)"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/5)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Jimmy",
+      "wikiLinks": [
+        {
+          "text": "Jimmy",
+          "href": "https://runescape.wiki/w/Intern_Jimmy"
+        }
+      ],
+      "col_1": "Tutorial",
+      "col_2": "N/A",
+      "col_3": "N/A",
+      "col_4": "0%",
+      "col_5": "0%"
+    },
+    {
+      "name": "Scarlet",
+      "wikiLinks": [
+        {
+          "text": "Scarlet",
+          "href": "https://runescape.wiki/w/Scarlet"
+        }
+      ],
+      "col_1": "Tutorial",
+      "col_2": "N/A",
+      "col_3": "N/A",
+      "col_4": "1%",
+      "col_5": "1%"
+    },
+    {
+      "name": "Katarina",
+      "wikiLinks": [
+        {
+          "text": "Katarina",
+          "href": "https://runescape.wiki/w/Katarina_(student)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Zarosian_training_dummy"
+        },
+        {
+          "text": "Zarosian training dummy",
+          "href": "https://runescape.wiki/w/Zarosian_training_dummy"
+        },
+        {
+          "text": "The Dig Site",
+          "href": "https://runescape.wiki/w/The_Dig_Site"
+        }
+      ],
+      "col_1": "North Varrock Dig Site",
+      "col_2": "",
+      "col_3": "Zarosian training dummy",
+      "col_4": "The Dig Site",
+      "col_5": "1%",
+      "col_6": "0%"
+    },
+    {
+      "name": "Dorian",
+      "wikiLinks": [
+        {
+          "text": "Dorian",
+          "href": "https://runescape.wiki/w/Dorian_(student)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Opulent_wine_goblet"
+        },
+        {
+          "text": "Opulent wine goblet",
+          "href": "https://runescape.wiki/w/Opulent_wine_goblet"
+        },
+        {
+          "text": "The Dig Site",
+          "href": "https://runescape.wiki/w/The_Dig_Site"
+        }
+      ],
+      "col_1": "East Varrock Dig Site",
+      "col_2": "",
+      "col_3": "Opulent wine goblet",
+      "col_4": "The Dig Site",
+      "col_5": "1%",
+      "col_6": "0%"
+    },
+    {
+      "name": "Eduardo",
+      "wikiLinks": [
+        {
+          "text": "Eduardo",
+          "href": "https://runescape.wiki/w/Eduardo_(student)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Ceremonial_unicorn_ornament"
+        },
+        {
+          "text": "Ceremonial unicorn ornament",
+          "href": "https://runescape.wiki/w/Ceremonial_unicorn_ornament"
+        },
+        {
+          "text": "The Dig Site",
+          "href": "https://runescape.wiki/w/The_Dig_Site"
+        }
+      ],
+      "col_1": "West Varrock Dig Site",
+      "col_2": "",
+      "col_3": "Ceremonial unicorn ornament",
+      "col_4": "The Dig Site",
+      "col_5": "1%",
+      "col_6": "0%"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/5)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Alpheus",
+      "wikiLinks": [
+        {
+          "text": "Alpheus",
+          "href": "https://runescape.wiki/w/Alpheus"
+        },
+        {
+          "text": "Anachronia",
+          "href": "https://runescape.wiki/w/Anachronia"
+        }
+      ],
+      "col_1": "Anachronia",
+      "col_2": "+2%",
+      "col_3": "+3%"
+    },
+    {
+      "name": "Eliza",
+      "wikiLinks": [
+        {
+          "text": "Eliza",
+          "href": "https://runescape.wiki/w/Eliza"
+        },
+        {
+          "text": "Anachronia",
+          "href": "https://runescape.wiki/w/Anachronia"
+        }
+      ],
+      "col_1": "Anachronia",
+      "col_2": "+2%",
+      "col_3": "+3%"
+    },
+    {
+      "name": "Tali",
+      "wikiLinks": [
+        {
+          "text": "Tali",
+          "href": "https://runescape.wiki/w/Tali"
+        },
+        {
+          "text": "Havenhythe",
+          "href": "https://runescape.wiki/w/Havenhythe"
+        }
+      ],
+      "col_1": "Havenhythe",
+      "col_2": "+2%",
+      "col_3": "+3%"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/3)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Drew",
+      "wikiLinks": [
+        {
+          "text": "Drew",
+          "href": "https://runescape.wiki/w/Drew"
+        }
+      ],
+      "col_1": "Automatically unlocked after getting professor qualification",
+      "col_2": "+4%",
+      "col_3": "+6%"
+    },
+    {
+      "name": "Helen",
+      "wikiLinks": [
+        {
+          "text": "Helen",
+          "href": "https://runescape.wiki/w/Helen"
+        }
+      ],
+      "col_1": "Automatically unlocked after getting professor qualification",
+      "col_2": "+4%",
+      "col_3": "+6%"
+    },
+    {
+      "name": "Easty",
+      "wikiLinks": [
+        {
+          "text": "Easty",
+          "href": "https://runescape.wiki/w/Easty"
+        }
+      ],
+      "col_1": "Automatically unlocked after getting professor qualification",
+      "col_2": "+4%",
+      "col_3": "+6%"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/3)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Simon Templeton",
+      "wikiLinks": [
+        {
+          "text": "Simon Templeton",
+          "href": "https://runescape.wiki/w/Simon_Templeton"
+        }
+      ],
+      "col_1": "Automatically unlocked after getting guildmaster qualification",
+      "col_2": "N/A",
+      "col_3": "N/A",
+      "col_4": "+6%",
+      "col_5": "+9%",
+      "col_6": "N/A"
+    },
+    {
+      "name": "Anna Jones",
+      "wikiLinks": [
+        {
+          "text": "Anna Jones",
+          "href": "https://runescape.wiki/w/Anna_Jones"
+        },
+        {
+          "text": "Varrock",
+          "href": "https://runescape.wiki/w/Varrock"
+        },
+        {
+          "text": "What Lies Below",
+          "href": "https://runescape.wiki/w/What_Lies_Below"
+        }
+      ],
+      "col_1": "North-east of Varrock, sitting on a bench",
+      "col_2": "N/A",
+      "col_3": "What Lies Below",
+      "col_4": "+6%",
+      "col_5": "+9%",
+      "col_6": "N/A"
+    },
+    {
+      "name": "Asgarnia Smith",
+      "wikiLinks": [
+        {
+          "text": "Asgarnia Smith",
+          "href": "https://runescape.wiki/w/Asgarnia_Smith"
+        },
+        {
+          "text": "rug merchant",
+          "href": "https://runescape.wiki/w/Rug_merchant"
+        },
+        {
+          "text": "Bedabin Camp",
+          "href": "https://runescape.wiki/w/Bedabin_Camp"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Ourg_megahitter"
+        },
+        {
+          "text": "Ourg megahitter",
+          "href": "https://runescape.wiki/w/Ourg_megahitter"
+        },
+        {
+          "text": "Desert Treasure",
+          "href": "https://runescape.wiki/w/Desert_Treasure"
+        }
+      ],
+      "col_1": "Near the rug merchant in the Bedabin Camp",
+      "col_2": "",
+      "col_3": "Ourg megahitter",
+      "col_4": "Desert Treasure",
+      "col_5": "+6%",
+      "col_6": "+9%",
+      "col_7": "Increases the amount of materials found"
+    },
+    {
+      "name": "Elissa Giovanni",
+      "wikiLinks": [
+        {
+          "text": "Elissa Giovanni",
+          "href": "https://runescape.wiki/w/Elissa"
+        },
+        {
+          "text": "Varrock Dig Site",
+          "href": "https://runescape.wiki/w/Varrock_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Golem_instruction"
+        },
+        {
+          "text": "Golem instruction",
+          "href": "https://runescape.wiki/w/Golem_instruction"
+        },
+        {
+          "text": "The Golem",
+          "href": "https://runescape.wiki/w/The_Golem"
+        }
+      ],
+      "col_1": "East Varrock Dig Site",
+      "col_2": "",
+      "col_3": "Golem instruction",
+      "col_4": "The Golem",
+      "col_5": "+6%",
+      "col_6": "+9%",
+      "col_7": "Increases the chance of discovering artefacts"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/4)",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "name": "Dr Nabanik",
+      "wikiLinks": [
+        {
+          "text": "Dr Nabanik",
+          "href": "https://runescape.wiki/w/Dr_Nabanik"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        }
+      ],
+      "col_1": "Kharid-et Dig Site",
+      "col_2": "107 (b)",
+      "col_3": "+8%",
+      "col_4": "+12%",
+      "col_5": "Third Age Expert: Guarantees the discovery of an artefact (2+ hours only)"
+    },
+    {
+      "name": "Vanescula",
+      "wikiLinks": [
+        {
+          "text": "Vanescula",
+          "href": "https://runescape.wiki/w/Vanescula_Drakan"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        }
+      ],
+      "col_1": "Everlight Dig Site",
+      "col_2": "105 (b)",
+      "col_3": "+12%",
+      "col_4": "+12%",
+      "col_5": "Taskmistress: Significantly increases research speed"
+    },
+    {
+      "name": "Movario",
+      "wikiLinks": [
+        {
+          "text": "Movario",
+          "href": "https://runescape.wiki/w/Movario"
+        },
+        {
+          "text": "Infernal Source Dig Site",
+          "href": "https://runescape.wiki/w/Infernal_Source_Dig_Site"
+        }
+      ],
+      "col_1": "Infernal Source Dig Site",
+      "col_2": "68 (b)",
+      "col_3": "+8%",
+      "col_4": "+12%",
+      "col_5": "Extra Resourceful: Greatly increases the amount of materials found"
+    },
+    {
+      "name": "Gee'ka",
+      "wikiLinks": [
+        {
+          "text": "Gee'ka",
+          "href": "https://runescape.wiki/w/Gee%27ka"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        }
+      ],
+      "col_1": "Stormguard Citadel Dig Site",
+      "col_2": "95",
+      "col_3": "+6%",
+      "col_4": "+12%",
+      "col_5": "Meticulous: 10% increase to Archaeology XP"
+    },
+    {
+      "name": "Zanik",
+      "wikiLinks": [
+        {
+          "text": "Zanik",
+          "href": "https://runescape.wiki/w/Zanik"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        }
+      ],
+      "col_1": "Warforge Dig Site",
+      "col_2": "110 (b)",
+      "col_3": "+8%",
+      "col_4": "+0%",
+      "col_5": "Zealous: Happily works free of charge"
+    },
+    {
+      "name": "Mr Mordaut",
+      "wikiLinks": [
+        {
+          "text": "Mr Mordaut",
+          "href": "https://runescape.wiki/w/Mr_Mordaut"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        }
+      ],
+      "col_1": "Orthen Dig Site",
+      "col_2": "120 (b)",
+      "col_3": "+8%",
+      "col_4": "+12%",
+      "col_5": "Treasure Hoarder: Gives a chance to obtain a tetracompass piece (research time/24)."
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (0/6)",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}

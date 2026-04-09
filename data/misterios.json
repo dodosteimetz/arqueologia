@@ -1,0 +1,2022 @@
+{
+  "extracted_at": "2026-04-09T09:37:19.673Z",
+  "source_url": "https://runescape.wiki/w/Mysteries",
+  "total_items": 50,
+  "data": [
+    {
+      "name": "Breaking the Seal",
+      "wikiLinks": [
+        {
+          "text": "Breaking the Seal",
+          "href": "https://runescape.wiki/w/Breaking_the_Seal"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology tutorial",
+          "href": "https://runescape.wiki/w/Archaeology_tutorial"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "12  Archaeology (b)\nArchaeology tutorial",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "900  experience\nAccess to the main fortress"
+    },
+    {
+      "name": "Prison Break",
+      "wikiLinks": [
+        {
+          "text": "Prison Break",
+          "href": "https://runescape.wiki/w/Prison_Break"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Breaking the Seal",
+          "href": "https://runescape.wiki/w/Breaking_the_Seal"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "12  Archaeology (b)\nBreaking the Seal",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "900  experience\nAccess to the prison block"
+    },
+    {
+      "name": "Eyes in Their Stars",
+      "wikiLinks": [
+        {
+          "text": "Eyes in Their Stars",
+          "href": "https://runescape.wiki/w/Eyes_in_Their_Stars"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Zamorakian",
+          "href": "https://runescape.wiki/w/Zamorakian_achievements"
+        },
+        {
+          "text": "Infernal Source Dig Site",
+          "href": "https://runescape.wiki/w/Infernal_Source_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Dungeon of Disorder",
+          "href": "https://runescape.wiki/w/Dungeon_of_Disorder"
+        }
+      ],
+      "col_1": "24  Archaeology",
+      "col_2": "Zamorakian",
+      "col_3": "Infernal Source Dig Site",
+      "col_4": "1,300  experience\nAccess to the Dungeon of Disorder"
+    },
+    {
+      "name": "Embrace the Chaos",
+      "wikiLinks": [
+        {
+          "text": "Embrace the Chaos",
+          "href": "https://runescape.wiki/w/Embrace_the_Chaos"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Eyes in Their Stars",
+          "href": "https://runescape.wiki/w/Eyes_in_Their_Stars"
+        },
+        {
+          "text": "Zamorakian",
+          "href": "https://runescape.wiki/w/Zamorakian_achievements"
+        },
+        {
+          "text": "Infernal Source Dig Site",
+          "href": "https://runescape.wiki/w/Infernal_Source_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "29  Archaeology\nEyes in Their Stars (partial)",
+      "col_2": "Zamorakian",
+      "col_3": "Infernal Source Dig Site",
+      "col_4": "1,400  experience\nAccess to the Source (Vestibule of Futility)"
+    },
+    {
+      "name": "Contract Claws",
+      "wikiLinks": [
+        {
+          "text": "Contract Claws",
+          "href": "https://runescape.wiki/w/Contract_Claws"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Prayer"
+        },
+        {
+          "text": "Prayer",
+          "href": "https://runescape.wiki/w/Prayer"
+        },
+        {
+          "text": "Land of the Goblins",
+          "href": "https://runescape.wiki/w/Land_of_the_Goblins"
+        },
+        {
+          "text": "Embrace the Chaos",
+          "href": "https://runescape.wiki/w/Embrace_the_Chaos"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Farming"
+        },
+        {
+          "text": "Farming",
+          "href": "https://runescape.wiki/w/Farming"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Construction"
+        },
+        {
+          "text": "Construction",
+          "href": "https://runescape.wiki/w/Construction"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Fishing"
+        },
+        {
+          "text": "Fishing",
+          "href": "https://runescape.wiki/w/Fishing"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Hunter"
+        },
+        {
+          "text": "Hunter",
+          "href": "https://runescape.wiki/w/Hunter"
+        },
+        {
+          "text": "Back to my Roots",
+          "href": "https://runescape.wiki/w/Back_to_my_Roots"
+        },
+        {
+          "text": "Bringing Home the Bacon",
+          "href": "https://runescape.wiki/w/Bringing_Home_the_Bacon"
+        },
+        {
+          "text": "Zamorakian",
+          "href": "https://runescape.wiki/w/Zamorakian_achievements"
+        },
+        {
+          "text": "Infernal Source Dig Site",
+          "href": "https://runescape.wiki/w/Infernal_Source_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "29  Archaeology\n35  Prayer\nPartial completion of Land of the Goblins\nEmbrace the Chaos\nshow    Ironmen:\n49  Farming and 60  Construction\n33  Fishing or 28  Hunter or partial completion of Back to my Roots\nBringing Home the Bacon",
+      "col_2": "show    Ironmen:",
+      "col_3": "49  Farming and 60  Construction\n33  Fishing or 28  Hunter or partial completion of Back to my Roots\nBringing Home the Bacon",
+      "col_4": "Zamorakian",
+      "col_5": "Infernal Source Dig Site",
+      "col_6": "1,400  experience\nA shortcut to the Harrowing when entering the lift at the Infernal Source Dig Site"
+    },
+    {
+      "name": "show    Ironmen:",
+      "wikiLinks": []
+    },
+    {
+      "name": "49  Farming and 60  Construction\n33  Fishing or 28  Hunter or partial completion of Back to my Roots\nBringing Home the Bacon",
+      "wikiLinks": [
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Farming"
+        },
+        {
+          "text": "Farming",
+          "href": "https://runescape.wiki/w/Farming"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Construction"
+        },
+        {
+          "text": "Construction",
+          "href": "https://runescape.wiki/w/Construction"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Fishing"
+        },
+        {
+          "text": "Fishing",
+          "href": "https://runescape.wiki/w/Fishing"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Hunter"
+        },
+        {
+          "text": "Hunter",
+          "href": "https://runescape.wiki/w/Hunter"
+        },
+        {
+          "text": "Back to my Roots",
+          "href": "https://runescape.wiki/w/Back_to_my_Roots"
+        },
+        {
+          "text": "Bringing Home the Bacon",
+          "href": "https://runescape.wiki/w/Bringing_Home_the_Bacon"
+        }
+      ]
+    },
+    {
+      "name": "Secrets of the Monolith",
+      "wikiLinks": [
+        {
+          "text": "Secrets of the Monolith",
+          "href": "https://runescape.wiki/w/Secrets_of_the_Monolith"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Qualification - Assistant",
+          "href": "https://runescape.wiki/w/Qualification_-_Assistant"
+        },
+        {
+          "text": "General",
+          "href": "https://runescape.wiki/w/Archaeology_achievements"
+        },
+        {
+          "text": "Archaeology Guild",
+          "href": "https://runescape.wiki/w/Archaeology_Guild"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "40  Archaeology\nQualification - Assistant",
+      "col_2": "General",
+      "col_3": "Archaeology Guild",
+      "col_4": "2,000  experience\nYou can harness more energy from the Monolith (+100 energy)"
+    },
+    {
+      "name": "Queen of the Icyene",
+      "wikiLinks": [
+        {
+          "text": "Queen of the Icyene",
+          "href": "https://runescape.wiki/w/Queen_of_the_Icyene"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "42  Archaeology (b)",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "2,100  experience"
+    },
+    {
+      "name": "Fallen Angels",
+      "wikiLinks": [
+        {
+          "text": "Fallen Angels",
+          "href": "https://runescape.wiki/w/Fallen_Angels"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "42  Archaeology (b)",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "2,100  experience"
+    },
+    {
+      "name": "Time Served",
+      "wikiLinks": [
+        {
+          "text": "Time Served",
+          "href": "https://runescape.wiki/w/Time_Served"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Prison Break",
+          "href": "https://runescape.wiki/w/Prison_Break"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "47  Archaeology\nPrison Break",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "2,800  experience\nPartial access to the Vault"
+    },
+    {
+      "name": "Fall and Rise",
+      "wikiLinks": [
+        {
+          "text": "Fall and Rise",
+          "href": "https://runescape.wiki/w/Fall_and_Rise"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "61  Archaeology (b)",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "5,100  experience"
+    },
+    {
+      "name": "Empty Children",
+      "wikiLinks": [
+        {
+          "text": "Empty Children",
+          "href": "https://runescape.wiki/w/Empty_Children"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Senntisten Dig Site",
+          "href": "https://runescape.wiki/w/Senntisten_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "66  Archaeology (b)",
+      "col_2": "Zarosian",
+      "col_3": "Senntisten Dig Site",
+      "col_4": "7,300  experience"
+    },
+    {
+      "name": "Secrets of the Inquisition",
+      "wikiLinks": [
+        {
+          "text": "Secrets of the Inquisition",
+          "href": "https://runescape.wiki/w/Secrets_of_the_Inquisition"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Senntisten Dig Site",
+          "href": "https://runescape.wiki/w/Senntisten_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Aurelius's Mask",
+          "href": "https://runescape.wiki/w/Aurelius%27s_Mask"
+        }
+      ],
+      "col_1": "67  Archaeology",
+      "col_2": "Zarosian",
+      "col_3": "Senntisten Dig Site",
+      "col_4": "7,800  experience\nAurelius's Mask"
+    },
+    {
+      "name": "Night Theatre",
+      "wikiLinks": [
+        {
+          "text": "Night Theatre",
+          "href": "https://runescape.wiki/w/Night_Theatre"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Senntisten Dig Site",
+          "href": "https://runescape.wiki/w/Senntisten_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "67  Archaeology (b)",
+      "col_2": "Zarosian",
+      "col_3": "Senntisten Dig Site",
+      "col_4": "7,800  experience"
+    },
+    {
+      "name": "Dagon Bye",
+      "wikiLinks": [
+        {
+          "text": "Dagon Bye",
+          "href": "https://runescape.wiki/w/Dagon_Bye"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Contract Claws",
+          "href": "https://runescape.wiki/w/Contract_Claws"
+        },
+        {
+          "text": "Embrace the Chaos",
+          "href": "https://runescape.wiki/w/Embrace_the_Chaos"
+        },
+        {
+          "text": "Qualification - Assistant",
+          "href": "https://runescape.wiki/w/Qualification_-_Assistant"
+        },
+        {
+          "text": "Zamorakian",
+          "href": "https://runescape.wiki/w/Zamorakian_achievements"
+        },
+        {
+          "text": "Infernal Source Dig Site",
+          "href": "https://runescape.wiki/w/Infernal_Source_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Pact with Dagon",
+          "href": "https://runescape.wiki/w/Pact_with_Dagon"
+        },
+        {
+          "text": "Ancient Summoning",
+          "href": "https://runescape.wiki/w/Ancient_Summoning"
+        }
+      ],
+      "col_1": "68  Archaeology (b)\nContract Claws\nEmbrace the Chaos\nQualification - Assistant",
+      "col_2": "Zamorakian",
+      "col_3": "Infernal Source Dig Site",
+      "col_4": "8,400  experience\nPact with Dagon\nA shortcut to the Dagon Overlook when entering the lift at the Infernal Source Dig Site\nAccess to Ancient Summoning"
+    },
+    {
+      "name": "Leap of Faith",
+      "wikiLinks": [
+        {
+          "text": "Leap of Faith",
+          "href": "https://runescape.wiki/w/Leap_of_Faith_(Archaeology_achievement)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Armadylean",
+          "href": "https://runescape.wiki/w/Armadylean_achievements"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "70  Archaeology",
+      "col_2": "Armadylean",
+      "col_3": "Stormguard Citadel Dig Site",
+      "col_4": "9,300  experience"
+    },
+    {
+      "name": "Atonement",
+      "wikiLinks": [
+        {
+          "text": "Atonement",
+          "href": "https://runescape.wiki/w/Atonement"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Armadylean",
+          "href": "https://runescape.wiki/w/Armadylean_achievements"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "70  Archaeology",
+      "col_2": "Armadylean",
+      "col_3": "Stormguard Citadel Dig Site",
+      "col_4": "9,300  experience"
+    },
+    {
+      "name": "The Dour of Bable",
+      "wikiLinks": [
+        {
+          "text": "The Dour of Bable",
+          "href": "https://runescape.wiki/w/The_Dour_of_Bable"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "72  Archaeology (b)",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "10,000  experience"
+    },
+    {
+      "name": "The Cult of Orcus",
+      "wikiLinks": [
+        {
+          "text": "The Cult of Orcus",
+          "href": "https://runescape.wiki/w/The_Cult_of_Orcus"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Prison Break",
+          "href": "https://runescape.wiki/w/Prison_Break"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "74  Archaeology (b)\nPrison Break",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "11,000  experience"
+    },
+    {
+      "name": "The First Commander",
+      "wikiLinks": [
+        {
+          "text": "The First Commander",
+          "href": "https://runescape.wiki/w/The_First_Commander"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Bandosian",
+          "href": "https://runescape.wiki/w/Bandosian_achievements"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "76  Archaeology",
+      "col_2": "Bandosian",
+      "col_3": "Warforge Dig Site",
+      "col_4": "12,000  experience"
+    },
+    {
+      "name": "The Spy Who Loved Metal",
+      "wikiLinks": [
+        {
+          "text": "The Spy Who Loved Metal",
+          "href": "https://runescape.wiki/w/The_Spy_Who_Loved_Metal"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Armadylean",
+          "href": "https://runescape.wiki/w/Armadylean_achievements"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "76  Archaeology",
+      "col_2": "Armadylean",
+      "col_3": "Stormguard Citadel Dig Site",
+      "col_4": "12,000  experience"
+    },
+    {
+      "name": "Wing Out",
+      "wikiLinks": [
+        {
+          "text": "Wing Out",
+          "href": "https://runescape.wiki/w/Wing_Out"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Smithing"
+        },
+        {
+          "text": "Smithing",
+          "href": "https://runescape.wiki/w/Smithing"
+        },
+        {
+          "text": "Armadylean",
+          "href": "https://runescape.wiki/w/Armadylean_achievements"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "wingsuit v2",
+          "href": "https://runescape.wiki/w/Wingsuit_v2"
+        },
+        {
+          "text": "wingsuit v3",
+          "href": "https://runescape.wiki/w/Wingsuit_v3"
+        }
+      ],
+      "col_1": "76  Archaeology (b)\n40  Smithing (b)",
+      "col_2": "Armadylean",
+      "col_3": "Stormguard Citadel Dig Site",
+      "col_4": "12,000  experience\nAbility to upgrade wingsuit v2 to wingsuit v3"
+    },
+    {
+      "name": "Out of the Crucible",
+      "wikiLinks": [
+        {
+          "text": "Out of the Crucible",
+          "href": "https://runescape.wiki/w/Out_of_the_Crucible"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Bandosian",
+          "href": "https://runescape.wiki/w/Bandosian_achievements"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "83  Archaeology (b)",
+      "col_2": "Bandosian",
+      "col_3": "Warforge Dig Site",
+      "col_4": "16,000  experience"
+    },
+    {
+      "name": "Into the Forge",
+      "wikiLinks": [
+        {
+          "text": "Into the Forge",
+          "href": "https://runescape.wiki/w/Into_the_Forge"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        },
+        {
+          "text": "Dungeoneering",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Fishing"
+        },
+        {
+          "text": "Fishing",
+          "href": "https://runescape.wiki/w/Fishing"
+        },
+        {
+          "text": "Out of the Crucible",
+          "href": "https://runescape.wiki/w/Out_of_the_Crucible"
+        },
+        {
+          "text": "Bandosian",
+          "href": "https://runescape.wiki/w/Bandosian_achievements"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        }
+      ],
+      "col_1": "83  Archaeology (b)\n35  Dungeoneering\n28  Fishing\nOut of the Crucible",
+      "col_2": "Bandosian",
+      "col_3": "Warforge Dig Site",
+      "col_4": "21,000  experience\n8,000  experience"
+    },
+    {
+      "name": "A Study in Aether",
+      "wikiLinks": [
+        {
+          "text": "A Study in Aether",
+          "href": "https://runescape.wiki/w/A_Study_in_Aether"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Armadylean",
+          "href": "https://runescape.wiki/w/Armadylean_achievements"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "85  Archaeology (b)",
+      "col_2": "Armadylean",
+      "col_3": "Stormguard Citadel Dig Site",
+      "col_4": "18,000  experience"
+    },
+    {
+      "name": "A New Home",
+      "wikiLinks": [
+        {
+          "text": "A New Home",
+          "href": "https://runescape.wiki/w/A_New_Home"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Daemonheim Dig Site",
+          "href": "https://runescape.wiki/w/Daemonheim_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "87  Archaeology (b)",
+      "col_2": "Dragonkin",
+      "col_3": "Daemonheim Dig Site",
+      "col_4": "19,500  experience"
+    },
+    {
+      "name": "Forge War!",
+      "wikiLinks": [
+        {
+          "text": "Forge War!",
+          "href": "https://runescape.wiki/w/Forge_War!_(achievement)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Out of the Crucible",
+          "href": "https://runescape.wiki/w/Out_of_the_Crucible"
+        },
+        {
+          "text": "Bandosian",
+          "href": "https://runescape.wiki/w/Bandosian_achievements"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "89  Archaeology (b)\nOut of the Crucible",
+      "col_2": "Bandosian",
+      "col_3": "Warforge Dig Site",
+      "col_4": "21,000  experience"
+    },
+    {
+      "name": "Crypt o' Zoology",
+      "wikiLinks": [
+        {
+          "text": "Crypt o' Zoology",
+          "href": "https://runescape.wiki/w/Crypt_o%27_Zoology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "90  Archaeology",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "21,500  experience"
+    },
+    {
+      "name": "Know Thy Measure",
+      "wikiLinks": [
+        {
+          "text": "Know Thy Measure",
+          "href": "https://runescape.wiki/w/Know_Thy_Measure"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Qualification - Associate",
+          "href": "https://runescape.wiki/w/Qualification_-_Associate"
+        },
+        {
+          "text": "Mr Mordaut",
+          "href": "https://runescape.wiki/w/Mr_Mordaut"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Moksha ritual site",
+          "href": "https://runescape.wiki/w/Moksha_ritual_site"
+        }
+      ],
+      "col_1": "90  Archaeology\nQualification - Associate\nTalked to Mr Mordaut about the dig site",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "39,500  experience\nAccess to the Moksha ritual site"
+    },
+    {
+      "name": "Teleport Node On",
+      "wikiLinks": [
+        {
+          "text": "Teleport Node On",
+          "href": "https://runescape.wiki/w/Teleport_Node_On"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Runecrafting"
+        },
+        {
+          "text": "Runecrafting",
+          "href": "https://runescape.wiki/w/Runecrafting"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Crafting"
+        },
+        {
+          "text": "Crafting",
+          "href": "https://runescape.wiki/w/Crafting"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Divination"
+        },
+        {
+          "text": "Divination",
+          "href": "https://runescape.wiki/w/Divination"
+        },
+        {
+          "text": "Know Thy Measure",
+          "href": "https://runescape.wiki/w/Know_Thy_Measure"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Divination"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Runecrafting"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Crafting"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Divination"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "90  Archaeology\n70  Runecrafting\n70  Crafting\n70  Divination\nKnow Thy Measure",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "3,000  experience (first teleport device)\n3,000  experience (second teleport device)\n3,000  experience (third teleport device)\n3,000  experience (final teleport device)\n35,000  experience (mystery reward)"
+    },
+    {
+      "name": "The Epic of Hebe",
+      "wikiLinks": [
+        {
+          "text": "The Epic of Hebe",
+          "href": "https://runescape.wiki/w/The_Epic_of_Hebe"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "92  Archaeology (b)",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "23,000  experience"
+    },
+    {
+      "name": "Howl's Floating Workshop",
+      "wikiLinks": [
+        {
+          "text": "Howl's Floating Workshop",
+          "href": "https://runescape.wiki/w/Howl%27s_Floating_Workshop"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Armadylean",
+          "href": "https://runescape.wiki/w/Armadylean_achievements"
+        },
+        {
+          "text": "Stormguard Citadel Dig Site",
+          "href": "https://runescape.wiki/w/Stormguard_Citadel_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Ancient Invention",
+          "href": "https://runescape.wiki/w/Ancient_Invention"
+        },
+        {
+          "text": "torn blueprint fragments (Howl's workshop)",
+          "href": "https://runescape.wiki/w/Torn_blueprint_fragments_(Howl%27s_workshop)"
+        }
+      ],
+      "col_1": "95  Archaeology",
+      "col_2": "Armadylean",
+      "col_3": "Stormguard Citadel Dig Site",
+      "col_4": "28,000  experience\nAccess to Ancient Invention and the ability to make blueprints from torn blueprint fragments (Howl's workshop)"
+    },
+    {
+      "name": "Writings on the Walls",
+      "wikiLinks": [
+        {
+          "text": "Writings on the Walls",
+          "href": "https://runescape.wiki/w/Writings_on_the_Walls"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Qualification - Guildmaster",
+          "href": "https://runescape.wiki/w/Qualification_-_Guildmaster"
+        },
+        {
+          "text": "Time Served",
+          "href": "https://runescape.wiki/w/Time_Served"
+        },
+        {
+          "text": "Eyes in Their Stars",
+          "href": "https://runescape.wiki/w/Eyes_in_Their_Stars"
+        },
+        {
+          "text": "Hallowed Be...",
+          "href": "https://runescape.wiki/w/Hallowed_Be..."
+        },
+        {
+          "text": "underwater cave",
+          "href": "https://runescape.wiki/w/Everlight_-_Underwater_cave_excavation_site"
+        },
+        {
+          "text": "Into the Forge",
+          "href": "https://runescape.wiki/w/Into_the_Forge"
+        },
+        {
+          "text": "General",
+          "href": "https://runescape.wiki/w/Archaeology_achievements"
+        },
+        {
+          "text": "Archaeology Guild",
+          "href": "https://runescape.wiki/w/Archaeology_Guild"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "99  Archaeology\nQualification - Guildmaster\nTime Served\nEyes in Their Stars\nPartial completion of Hallowed Be... (must have unlocked access to the underwater cave)\nInto the Forge",
+      "col_2": "General",
+      "col_3": "Archaeology Guild",
+      "col_4": "35,000  experience"
+    },
+    {
+      "name": "You Have Chosen...",
+      "wikiLinks": [
+        {
+          "text": "You Have Chosen...",
+          "href": "https://runescape.wiki/w/You_Have_Chosen..."
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Out of the Crucible",
+          "href": "https://runescape.wiki/w/Out_of_the_Crucible"
+        },
+        {
+          "text": "The First Commander",
+          "href": "https://runescape.wiki/w/The_First_Commander"
+        },
+        {
+          "text": "Bandosian",
+          "href": "https://runescape.wiki/w/Bandosian_achievements"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Warforge - Bandos's sanctum excavation site",
+          "href": "https://runescape.wiki/w/Warforge_-_Bandos%27s_sanctum_excavation_site"
+        }
+      ],
+      "col_1": "100  Archaeology\nOut of the Crucible\nThe First Commander (partial completion)",
+      "col_2": "Bandosian",
+      "col_3": "Warforge Dig Site",
+      "col_4": "37,000  experience\nAccess to Warforge - Bandos's sanctum excavation site"
+    },
+    {
+      "name": "Death Watch",
+      "wikiLinks": [
+        {
+          "text": "Death Watch",
+          "href": "https://runescape.wiki/w/Death_Watch"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "101  Archaeology (b)",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "39,500  experience"
+    },
+    {
+      "name": "Hallowed Be...",
+      "wikiLinks": [
+        {
+          "text": "Hallowed Be...",
+          "href": "https://runescape.wiki/w/Hallowed_Be..."
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "105  Archaeology (b)",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "49,000  experience"
+    },
+    {
+      "name": "The Everlight",
+      "wikiLinks": [
+        {
+          "text": "The Everlight",
+          "href": "https://runescape.wiki/w/The_Everlight"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Construction"
+        },
+        {
+          "text": "Construction",
+          "href": "https://runescape.wiki/w/Construction"
+        },
+        {
+          "text": "Hallowed Be...",
+          "href": "https://runescape.wiki/w/Hallowed_Be..."
+        },
+        {
+          "text": "Saradominist",
+          "href": "https://runescape.wiki/w/Saradominist_achievements"
+        },
+        {
+          "text": "Everlight Dig Site",
+          "href": "https://runescape.wiki/w/Everlight_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Heightened Senses",
+          "href": "https://runescape.wiki/w/Heightened_Senses"
+        }
+      ],
+      "col_1": "105  Archaeology (b)\n40  Construction (b)\nHallowed Be...",
+      "col_2": "Saradominist",
+      "col_3": "Everlight Dig Site",
+      "col_4": "49,000  experience\nAbility to unlock the Heightened Senses relic power"
+    },
+    {
+      "name": "Free Your Mind",
+      "wikiLinks": [
+        {
+          "text": "Free Your Mind",
+          "href": "https://runescape.wiki/w/Free_Your_Mind"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "106  Archaeology (b)",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "51,500  experience"
+    },
+    {
+      "name": "Decimation",
+      "wikiLinks": [
+        {
+          "text": "Decimation",
+          "href": "https://runescape.wiki/w/Decimation_(achievement)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Prison Break",
+          "href": "https://runescape.wiki/w/Prison_Break"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "107  Archaeology (b)\nPrison Break",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "54,000  experience"
+    },
+    {
+      "name": "Shadow Fall",
+      "wikiLinks": [
+        {
+          "text": "Shadow Fall",
+          "href": "https://runescape.wiki/w/Shadow_Fall"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Prison Break",
+          "href": "https://runescape.wiki/w/Prison_Break"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "107  Archaeology (b)\nPrison Break",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "54,000  experience"
+    },
+    {
+      "name": "The Forgotten Prisoner",
+      "wikiLinks": [
+        {
+          "text": "The Forgotten Prisoner",
+          "href": "https://runescape.wiki/w/The_Forgotten_Prisoner"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Prison Break",
+          "href": "https://runescape.wiki/w/Prison_Break"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "107  Archaeology (b)\nPrison Break",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "54,000  experience"
+    },
+    {
+      "name": "The Vault of Shadows",
+      "wikiLinks": [
+        {
+          "text": "The Vault of Shadows",
+          "href": "https://runescape.wiki/w/The_Vault_of_Shadows_(Archaeology_achievement)"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Time Served",
+          "href": "https://runescape.wiki/w/Time_Served"
+        },
+        {
+          "text": "shadow anchors",
+          "href": "https://runescape.wiki/w/Shadow_anchor"
+        },
+        {
+          "text": "pylon",
+          "href": "https://runescape.wiki/w/Pylon"
+        },
+        {
+          "text": "Zarosian",
+          "href": "https://runescape.wiki/w/Zarosian_achievements"
+        },
+        {
+          "text": "Kharid-et Dig Site",
+          "href": "https://runescape.wiki/w/Kharid-et_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Divination"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "107  Archaeology (b)\nTime Served\nAll shadow anchors powered or pylon active",
+      "col_2": "Zarosian",
+      "col_3": "Kharid-et Dig Site",
+      "col_4": "2,500  experience (ice button puzzle with 58  Archaeology (b))\n5,000  experience (blood button puzzle with 86  Archaeology (b))\n7,500  experience (smoke button puzzle with 100  Archaeology (b))\n10,000  experience (shadow button puzzle with 107  Archaeology (b))\n25,000  experience\n30,000  experience\nAbility to teleport between the five buttons."
+    },
+    {
+      "name": "Fragmented Memories",
+      "wikiLinks": [
+        {
+          "text": "Fragmented Memories",
+          "href": "https://runescape.wiki/w/Fragmented_Memories"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Hunter"
+        },
+        {
+          "text": "Hunter",
+          "href": "https://runescape.wiki/w/Hunter"
+        },
+        {
+          "text": "Know Thy Measure",
+          "href": "https://runescape.wiki/w/Know_Thy_Measure"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "108  Archaeology(b)\n86  Hunter (b)\nKnow Thy Measure",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "56,500  experience"
+    },
+    {
+      "name": "Heart of the Forge",
+      "wikiLinks": [
+        {
+          "text": "Heart of the Forge",
+          "href": "https://runescape.wiki/w/Heart_of_the_Forge"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Out of the Crucible",
+          "href": "https://runescape.wiki/w/Out_of_the_Crucible"
+        },
+        {
+          "text": "Bandosian",
+          "href": "https://runescape.wiki/w/Bandosian_achievements"
+        },
+        {
+          "text": "Warforge Dig Site",
+          "href": "https://runescape.wiki/w/Warforge_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "110  Archaeology (b)\nOut of the Crucible",
+      "col_2": "Bandosian",
+      "col_3": "Warforge Dig Site",
+      "col_4": "62,000  experience"
+    },
+    {
+      "name": "A New Age",
+      "wikiLinks": [
+        {
+          "text": "A New Age",
+          "href": "https://runescape.wiki/w/A_New_Age"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        },
+        {
+          "text": "Dungeoneering",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        },
+        {
+          "text": "A New Home",
+          "href": "https://runescape.wiki/w/A_New_Home"
+        },
+        {
+          "text": "A New Form",
+          "href": "https://runescape.wiki/w/A_New_Form"
+        },
+        {
+          "text": "Thought Process",
+          "href": "https://runescape.wiki/w/Thought_Process"
+        },
+        {
+          "text": "Twilight of the Gods",
+          "href": "https://runescape.wiki/w/Twilight_of_the_Gods"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Daemonheim Dig Site",
+          "href": "https://runescape.wiki/w/Daemonheim_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "113  Archaeology\n95  Dungeoneering\nA New Home\nA New Form\nThought Process\nTwilight of the Gods",
+      "col_2": "Dragonkin",
+      "col_3": "Daemonheim Dig Site",
+      "col_4": "67,000  experience"
+    },
+    {
+      "name": "A New Form",
+      "wikiLinks": [
+        {
+          "text": "A New Form",
+          "href": "https://runescape.wiki/w/A_New_Form"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        },
+        {
+          "text": "Dungeoneering",
+          "href": "https://runescape.wiki/w/Dungeoneering"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Daemonheim Dig Site",
+          "href": "https://runescape.wiki/w/Daemonheim_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "113  Archaeology (b)\n95  Dungeoneering",
+      "col_2": "Dragonkin",
+      "col_3": "Daemonheim Dig Site",
+      "col_4": "67,000  experience"
+    },
+    {
+      "name": "I Am Become Death",
+      "wikiLinks": [
+        {
+          "text": "I Am Become Death",
+          "href": "https://runescape.wiki/w/I_Am_Become_Death"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Fragmented Memories",
+          "href": "https://runescape.wiki/w/Fragmented_Memories"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        }
+      ],
+      "col_1": "113  Archaeology (b)\nFragmented Memories",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "67,000  experience"
+    },
+    {
+      "name": "Mysterious City",
+      "wikiLinks": [
+        {
+          "text": "Mysterious City",
+          "href": "https://runescape.wiki/w/Mysterious_City"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Archaeology",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "Fragmented Memories",
+          "href": "https://runescape.wiki/w/Fragmented_Memories"
+        },
+        {
+          "text": "Dragonkin",
+          "href": "https://runescape.wiki/w/Dragonkin_achievements"
+        },
+        {
+          "text": "Orthen Dig Site",
+          "href": "https://runescape.wiki/w/Orthen_Dig_Site"
+        },
+        {
+          "text": "",
+          "href": "https://runescape.wiki/w/Archaeology"
+        },
+        {
+          "text": "mysterious monolith",
+          "href": "https://runescape.wiki/w/Mysterious_monolith"
+        }
+      ],
+      "col_1": "120  Archaeology (b)\nFragmented Memories",
+      "col_2": "Dragonkin",
+      "col_3": "Orthen Dig Site",
+      "col_4": "80,000  experience\n150 additional power at the mysterious monolith"
+    },
+    {
+      "name": "",
+      "wikiLinks": [
+        {
+          "text": "Clear selection (26/47)",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}
