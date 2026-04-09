@@ -139,20 +139,15 @@
   // DATA LOADING
   // ═══════════════════════════════════════════════════════
   async function loadJSON(filename) {
-    // Pegamos o caminho base da URL atual para evitar erros no GitHub Pages
-    const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
-    const finalUrl = `${baseUrl}/${filename}`.replace(/\/+/g, '/').replace(':/', '://');
-
-    console.log(`Tentando carregar: ${finalUrl}`);
-
     try {
-      const response = await fetch(finalUrl, { cache: 'no-store' });
+      // Usando caminho relativo simples: ./nome-do-arquivo.json
+      const response = await fetch(`./${filename}`);
       if (!response.ok) {
-        throw new Error(`Arquivo ${filename} não encontrado (Erro ${response.status})`);
+        throw new Error(`Erro ${response.status}: O arquivo ${filename} não foi encontrado.`);
       }
       return await response.json();
     } catch (error) {
-      console.error(`Erro crítico ao carregar ${filename}:`, error);
+      console.error(error.message);
       return null;
     }
   }
