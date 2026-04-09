@@ -117,117 +117,145 @@
 </div>
 
 <script>
-/* ═══════════════════════════════════════════════════════
-   ESTADO GLOBAL
-═══════════════════════════════════════════════════════ */
-let DB = { artefacts: [], collections: [], materials: [] };
-let state = {
-    level: 99,
-    tab: 'artefacts',
-    done: JSON.parse(localStorage.getItem('arch_done') || '{}')
-};
+// ═══════════════════════════════════════════════════════
+  // CONFIG & STATE
+  // ═══════════════════════════════════════════════════════
+  const CONFIG = {
+    dataPath: '.', // Caminho para seus JSONs (coloque os JSONs na mesma pasta do HTML)
+    tabs: [
+      { id: 'misterios', label: '🔮 Mistérios', file: 'misterios.json' },
+      { id: 'artefatos', label: '🏺 Artefatos', file: 'artefatos.json' },
+      { id: 'colecoes', label: '📚 Coleções', file: 'coleções.json' },
+      { id: 'pesquisas', label: '📜 Pesquisas', file: 'pesquisas.json' },
+    ]
+  };
 
-/* ═══════════════════════════════════════════════════════
-   CARREGAMENTO DE DADOS (JSON)
-═══════════════════════════════════════════════════════ */
-async function loadData() {
+  let state = {
+    currentTab: 'misterios',
+    data: {}
+  };
+
+  // ═══════════════════════════════════════════════════════
+  // DATA LOADING
+  // ═══════════════════════════════════════════════════════
+  async function loadJSON(filename) {
     try {
-        // Tenta carregar os arquivos JSON em paralelo
-        const [resArt, resCol, resMat] = await Promise.all([
-            fetch('artefacts.json').then(r => r.json()),
-            fetch('collections.json').then(r => r.json()),
-            fetch('materials.json').then(r => r.json())
-        ]);
-
-        DB.artefacts = resArt;
-        DB.collections = resCol;
-        DB.materials = resMat;
-
-        init();
-    } catch (err) {
-        document.getElementById('main-content').innerHTML = `
-            <div class="card" style="border-color: red;">
-                <h2>Erro ao carregar JSON</h2>
-                <p>Certifique-se de que os arquivos <b>artefacts.json</b>, <b>collections.json</b> e <b>materials.json</b> estão na mesma pasta.</p>
-                <small>${err.message}</small>
-            </div>
-        `;
+      // Adicionado cache='no-store' para evitar carregar versão velha caso você atualize os jsons
+      const response = await fetch(`${CONFIG.dataPath}/${filename}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      console.error(`Erro ao carregar ${filename}:`, error);
+      return null;
     }
-}
+  }
 
-/* ═══════════════════════════════════════════════════════
-   LÓGICA DO APP
-═══════════════════════════════════════════════════════ */
-function init() {
-    document.getElementById('level-slider').addEventListener('input', (e) => {
-        state.level = parseInt(e.target.value);
-        document.getElementById('level-val').textContent = state.level;
-        render();
-    });
+  async function loadAllData() {
+    console.log('Carregando dados...');
+    for (const tab of CONFIG.tabs) {
+      state.data[tab.id] = await loadJSON(tab.file);
+    }
     render();
-}
+  }
 
-function setTab(t) {
-    state.tab = t;
-    render();
-}
+  // ═══════════════════════════════════════════════════════
+  // RENDER FUNCTIONS
+  // ═══════════════════════════════════════════════════════
+  function renderNav() {
+    const nav = document.getElementById('nav-tabs');
+    nav.innerHTML = CONFIG.tabs
+      .map(tab => `
+        <button class="${state.currentTab === tab.id ? 'active' : ''}"
+                onclick="switchTab('${tab.id}')">
+          ${tab.label}
+        </button>
+      `)
+      .join('');
+  }
 
-function toggleDone(id) {
-    state.done[id] = !state.done[id];
-    localStorage.setItem('arch_done', JSON.stringify(state.done));
-    render();
-}
+  function renderContent() {
+    const content = document.getElementById('content');
+    const fileData = state.data[state.currentTab];
 
-function render() {
-    document.querySelectorAll('nav button').forEach(btn => {
-        btn.classList.toggle('active', btn.id === `btn-${state.tab}`);
-    });
+    if (!fileData) {
+      content.innerHTML = '<div class="loading">Carregando dados (ou arquivo não encontrado)...</div>';
+      return;
+    }
 
-    const content = document.getElementById('main-content');
-    let html = '';
+    // O nosso JSON salvo tem um wrapper { data: [...] }, precisamos pegar a array de dentro
+    const currentData = fileData.data;
 
-    if (state.tab === 'artefacts') {
-        // Convertemos art.level para número para a comparação funcionar
-        const filtered = DB.artefacts.filter(a => parseInt(a.level) <= state.level);
+    if (!currentData || !Array.isArray(currentData)) {
+      content.innerHTML = '<div class="error">Formato de dados inválido. O arquivo JSON deve ter uma propriedade "data" contendo uma lista.</div>';
+      return;
+    }
+
+    if (currentData.length === 0) {
+      content.innerHTML = '<div class="loading">Nenhum dado disponível</div>';
+      return;
+    }
+
+    // Como as colunas variam muito, vamos usar um renderizador genérico inteligente
+    content.innerHTML = renderGeneric(currentData, state.currentTab);
+  }
+
+  function renderGeneric(data, tabId) {
+    return `<div class="grid">
+      ${data.map(item => {
+        // Ignorar linhas de lixo geradas pela Wiki (ex: "Clear selection")
+        if (!item.name || item.name.includes('Clear selection')) return '';
+
+        let bodyHtml = '';
         
-        html = `<h2>Artefatos (Nível ${state.level})</h2>`;
-        
-        filtered.forEach(art => {
-            // Como seu JSON não tem ID, usamos o NAME para salvar o progresso
-            const isDone = state.done[art.name];
-            
-            // Gerar a lista de materiais
-            const matList = art.materials.map(m => `<li>${m}</li>`).join('');
+        // Pega todas as chaves do tipo col_1, col_2, etc...
+        const colKeys = Object.keys(item).filter(k => k.startsWith('col_'));
 
-            html += `
-                <div class="card ${isDone ? 'done' : ''}" onclick="toggleDone('${art.name}')" style="cursor:pointer">
-                    <b>[Lvl ${art.level}]</b> ${art.name} <br>
-                    <span style="color: var(--gold); font-size: 0.8rem;">XP: ${art.xp} | Coleção: ${art.collections}</span>
-                    <ul style="font-size: 0.85rem; margin-top: 10px; color: var(--text-dim)">
-                        ${matList}
-                    </ul>
-                </div>
-            `;
+        colKeys.forEach((key, index) => {
+          let text = item[key];
+          if (!text) return;
+
+          // Limpa o texto: a Wiki coloca muitos espaços e "shows/hides", vamos limpar e trocar quebras de linha por <br>
+          text = text.replace(/show\s+Ironmen:/g, '')
+                     .replace(/\n+/g, '<br>')
+                     .trim();
+
+          bodyHtml += `
+            <p style="margin-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 4px;">
+              <strong>Info ${index + 1}:</strong><br>
+              <span style="color: var(--textdim);">${text}</span>
+            </p>`;
         });
-    } 
-    // ... manter as outras abas (materials/collections) como estavam
-    content.innerHTML = html;
-    updateStats();
-}
 
-function updateStats() {
-    // Ajuste para contar usando o NOME e converter nível
-    const available = DB.artefacts.filter(a => parseInt(a.level) <= state.level);
-    const total = available.length;
-    const done = available.filter(a => state.done[a.name]).length;
-    const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+        return `
+          <div class="card">
+            <div class="card-title">${item.name}</div>
+            <div class="card-body">
+              ${bodyHtml}
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </div>`;
+  }
 
-    document.getElementById('stat-done').textContent = done;
-    document.getElementById('stat-pct').textContent = pct + '%';
-}
+  // ═══════════════════════════════════════════════════════
+  // CONTROLS
+  // ═══════════════════════════════════════════════════════
+  function switchTab(tabId) {
+    state.currentTab = tabId;
+    renderNav();
+    renderContent();
+  }
 
-// Inicia o processo
-loadData();
+  function render() {
+    renderNav();
+    renderContent();
+  }
+
+  // ═══════════════════════════════════════════════════════
+  // INIT
+  // ═══════════════════════════════════════════════════════
+  loadAllData();
 </script>
 
 </body>
