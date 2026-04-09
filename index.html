@@ -121,14 +121,14 @@
   // CONFIG & STATE
   // ═══════════════════════════════════════════════════════
   const CONFIG = {
-    dataPath: './data', // Caminho para seus JSONs (coloque os JSONs na mesma pasta do HTML)
-    tabs: [
-      { id: 'misterios', label: '🔮 Mistérios', file: 'misterios.json' },
-      { id: 'artefatos', label: '🏺 Artefatos', file: 'artefatos.json' },
-      { id: 'colecoes', label: '📚 Coleções', file: 'colecoes.json' },
-      { id: 'pesquisas', label: '📜 Pesquisas', file: 'pesquisas.json' },
-    ]
-  };
+  dataPath: './data/',
+  tabs: [
+    { id: 'misterios', label: '🔮 Mistérios', file: 'misterios.json' },
+    { id: 'artefatos', label: '🏺 Artefatos', file: 'artefatos.json' },
+    { id: 'colecoes', label: '📚 Coleções', file: 'colecoes.json' },
+    { id: 'pesquisas', label: '📜 Pesquisas', file: 'pesquisas.json' },
+  ]
+};
 
   let state = {
     currentTab: 'misterios',
@@ -141,7 +141,7 @@
   async function loadJSON(filename) {
     try {
       // Usando caminho relativo simples: ./nome-do-arquivo.json
-      const response = await fetch(`./${filename}`);
+      const response = await fetch(`${CONFIG.dataPath}${filename}`);
       if (!response.ok) {
         throw new Error(`Erro ${response.status}: O arquivo ${filename} não foi encontrado.`);
       }
